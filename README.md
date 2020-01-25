@@ -3,9 +3,7 @@
 
 An ESM version of React.
 
-## CDN Usage
-
-### JS Delivr
+## JS Delivr
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/react/esm/react.development.js
 
@@ -16,6 +14,8 @@ https://cdn.jsdelivr.net/npm/@esm-bundle/react/esm/react.production.min.js
 https://unpkg.com/@esm-bundle/react/esm/react.development.js
 
 https://unpkg.com/@esm-bundle/react/esm/react.production.min.js
+
+## Yarn
 
 ```sh
 yarn add react@npm:@esm-bundle/react
