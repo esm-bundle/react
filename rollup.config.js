@@ -10,7 +10,7 @@ export default [
     input: require.resolve("react/cjs/react.development.js"),
     output: {
       format: "esm",
-      file: "dist/esm/react.development.js",
+      file: "esm/react.development.js",
       sourcemap: true
     },
     plugins: [
@@ -33,7 +33,7 @@ export default [
     input: require.resolve("react/cjs/react.production.min.js"),
     output: {
       format: "esm",
-      file: "dist/esm/react.production.min.js",
+      file: "esm/react.production.min.js",
       sourcemap: true
     },
     plugins: [

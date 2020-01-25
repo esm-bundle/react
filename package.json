@@ -6,16 +6,16 @@
   "module": "esm/react.production.min.js",
   "type": "module",
   "scripts": {
-    "build": "rimraf dist && rollup -c",
+    "build": "rimraf esm && rollup -c",
     "test": "mocha -r chai/register-expect",
     "prepublishOnly": "yarn build"
   },
   "files": [
-    "dist"
+    "esm"
   ],
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "pretty-quick --staged && yarn test"
     }
   },
   "repository": {

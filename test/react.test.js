@@ -2,12 +2,12 @@ import DevReact, {
   useState as devUseState,
   useCallback as devUseCallback,
   createElement as devCreateElement
-} from "../dist/esm/react.development.js";
+} from "../esm/react.development.js";
 import ProdReact, {
   useState as prodUseState,
   useCallback as prodUseCallback,
   createElement as prodCreateElement
-} from "../dist/esm/react.production.min.js";
+} from "../esm/react.production.min.js";
 
 describe(`React`, () => {
   it("Can load dev version of React", () => {
