@@ -1,0 +1,44 @@
+{
+  "name": "@esm-bundle/react",
+  "version": "16.12.0",
+  "description": "An ESM version of react",
+  "main": "esm/react.production.min.js",
+  "module": "esm/react.production.min.js",
+  "type": "module",
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "test": "mocha -r chai/register-expect"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esm-bundle/react.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esm-bundle/react/issues"
+  },
+  "homepage": "https://github.com/esm-bundle/react#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "chai": "^4.2.0",
+    "husky": "^4.2.1",
+    "mocha": "^7.0.0-esm1",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "rimraf": "^3.0.0",
+    "rollup": "^1.29.1",
+    "rollup-cli": "^1.0.9"
+  },
+  "dependencies": {
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.7.2",
+    "react": "16.12.0"
+  }
+}
