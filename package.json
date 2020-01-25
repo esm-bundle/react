@@ -7,7 +7,8 @@
   "type": "module",
   "scripts": {
     "build": "rimraf dist && rollup -c",
-    "test": "mocha -r chai/register-expect"
+    "test": "mocha -r chai/register-expect",
+    "prepublishOnly": "yarn build"
   },
   "files": [
     "dist"
