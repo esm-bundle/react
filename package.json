@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/react",
-  "version": "16.12.0-fix.1",
+  "version": "16.12.0-fix.2",
   "description": "An ESM version of react",
   "main": "esm/react.production.min.js",
   "module": "esm/react.production.min.js",
