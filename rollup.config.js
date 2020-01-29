@@ -1,6 +1,7 @@
 import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 import replace from "@rollup/plugin-replace";
+import { terser } from "rollup-plugin-terser";
 
 const DevReact = require("react/cjs/react.development.js");
 const ProdReact = require("react/cjs/react.production.min.js");
@@ -11,7 +12,8 @@ export default [
     output: {
       format: "esm",
       file: "esm/react.development.js",
-      sourcemap: true
+      sourcemap: true,
+      banner: `/* react@${DevReact.version} development version */`
     },
     plugins: [
       commonjs({
@@ -34,7 +36,8 @@ export default [
     output: {
       format: "esm",
       file: "esm/react.production.min.js",
-      sourcemap: true
+      sourcemap: true,
+      banner: `/* react@${ProdReact.version} production version */`
     },
     plugins: [
       commonjs({
@@ -48,6 +51,13 @@ export default [
       replace({
         values: {
           "process.env.NODE_ENV": '"production"'
+        }
+      }),
+      terser({
+        output: {
+          comments(node, comment) {
+            return comment.value.trim().startsWith("react@");
+          }
         }
       })
     ]

@@ -39,7 +39,8 @@
     "pretty-quick": "^2.0.1",
     "rimraf": "^3.0.0",
     "rollup": "^1.29.1",
-    "rollup-cli": "^1.0.9"
+    "rollup-cli": "^1.0.9",
+    "rollup-plugin-terser": "^5.2.0"
   },
   "dependencies": {
     "object-assign": "^4.1.1",

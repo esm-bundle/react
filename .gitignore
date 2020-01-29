@@ -104,3 +104,4 @@ dist
 .tern-port
 
 esm
+.DS_Store

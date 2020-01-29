@@ -3,5 +3,5 @@
 An ESM version of React.
 
 ```sh
-npm install --save
+npm install --save @esm-bundle/react
 ```
