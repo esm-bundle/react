@@ -15,6 +15,12 @@ https://unpkg.com/@esm-bundle/react/esm/react.development.js
 
 https://unpkg.com/@esm-bundle/react/esm/react.production.min.js
 
+## Npm
+
+```sh
+npm install react@npm:@esm-bundle/react
+```
+
 ## Yarn
 
 ```sh
