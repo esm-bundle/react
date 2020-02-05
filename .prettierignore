@@ -1,1 +1,10 @@
-esm
+.prettierignore
+.gitignore
+LICENSE
+yarn.lock
+yarn-error.log
+esm/
+system/
+.DS_Store
+.kodiak.toml
+karma.conf.cjs

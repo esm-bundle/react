@@ -1,0 +1,7 @@
+# .kodiak.toml
+# Minimal config. version is the only required field.
+version = 1
+approve.auto_approve_usernames = [ "renovate" ]
+merge.method = "squash"
+merge.delete_branch_on_merge = true
+merge.require_automerge_label = false

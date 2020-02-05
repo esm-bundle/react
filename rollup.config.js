@@ -6,12 +6,14 @@ import { terser } from "rollup-plugin-terser";
 const DevReact = require("react/cjs/react.development.js");
 const ProdReact = require("react/cjs/react.production.min.js");
 
-export default [
-  {
+function createDevConfig(format) {
+  const dir = format === "module" ? "esm" : format;
+
+  return {
     input: require.resolve("react/cjs/react.development.js"),
     output: {
-      format: "esm",
-      file: "esm/react.development.js",
+      format,
+      file: `${dir}/react.development.js`,
       sourcemap: true,
       banner: `/* react@${DevReact.version} development version */`
     },
@@ -30,12 +32,15 @@ export default [
         }
       })
     ]
-  },
-  {
+  };
+}
+
+function createProdConfig(format) {
+  return {
     input: require.resolve("react/cjs/react.production.min.js"),
     output: {
-      format: "esm",
-      file: "esm/react.production.min.js",
+      format,
+      file: `${format}/react.production.min.js`,
       sourcemap: true,
       banner: `/* react@${ProdReact.version} production version */`
     },
@@ -61,5 +66,12 @@ export default [
         }
       })
     ]
-  }
+  };
+}
+
+export default [
+  createDevConfig("esm"),
+  createDevConfig("system"),
+  createProdConfig("esm"),
+  createProdConfig("system")
 ];
