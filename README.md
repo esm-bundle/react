@@ -1,6 +1,5 @@
 # react
-
-[![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/react/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/react)
+[![build status](https://travis-ci.com/esm-bundle/autopublish-template.svg?branch=master)](https://travis-ci.com/esm-bundle/autopublish-template) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/react/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/react)
 
 An ESM version of React.
 
