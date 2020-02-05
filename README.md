@@ -1,5 +1,5 @@
 # react
-[![build status](https://travis-ci.com/esm-bundle/react.svg?branch=master)](https://travis-ci.com/esm-bundle/react) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/react/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/react)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/react.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/react) [![build status](https://travis-ci.com/esm-bundle/react.svg?branch=master)](https://travis-ci.com/esm-bundle/react) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/react/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/react)
 
 An ESM version of React.
 
