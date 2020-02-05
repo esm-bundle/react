@@ -3,6 +3,10 @@
 
 An ESM version of React.
 
+["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
+
+[How can I create a repo like this](https://github.com/esm-bundle/new-repo-instructions).
+
 ## JS Delivr
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/react/esm/react.development.js
