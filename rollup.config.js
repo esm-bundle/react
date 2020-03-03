@@ -15,16 +15,11 @@ function createDevConfig(format) {
       format,
       file: `${dir}/react.development.js`,
       sourcemap: true,
-      banner: `/* react@${DevReact.version} development version */`
+      banner: `/* react@${DevReact.version} development version */`,
+      exports: "named"
     },
     plugins: [
-      commonjs({
-        namedExports: {
-          [require.resolve("react/cjs/react.development.js")]: Object.keys(
-            DevReact
-          )
-        }
-      }),
+      commonjs(),
       resolve(),
       replace({
         values: {
@@ -42,16 +37,11 @@ function createProdConfig(format) {
       format,
       file: `${format}/react.production.min.js`,
       sourcemap: true,
-      banner: `/* react@${ProdReact.version} production version */`
+      banner: `/* react@${ProdReact.version} production version */`,
+      exports: "named"
     },
     plugins: [
-      commonjs({
-        namedExports: {
-          [require.resolve("react/cjs/react.production.min.js")]: Object.keys(
-            ProdReact
-          )
-        }
-      }),
+      commonjs(),
       resolve(),
       replace({
         values: {
