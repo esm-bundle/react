@@ -3817,10 +3817,10 @@ mkdirp@0.5.1, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mocha@7.0.0-esm1:
-  version "7.0.0-esm1"
-  resolved "https://registry.yarnpkg.com/mocha/-/mocha-7.0.0-esm1.tgz#bc04fbb4dd9d1895095bc31090bd265d6b12d236"
-  integrity sha512-290vKeLw5QlX5aHeJHxdAC+RjPMyciyltwfJhLH9vaKlET93U8klG5hoQd6nDqbcUFlzRg//OuVDVhqjlFsF3Q==
+mocha@7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/mocha/-/mocha-7.1.0.tgz#c784f579ad0904d29229ad6cb1e2514e4db7d249"
+  integrity sha512-MymHK8UkU0K15Q/zX7uflZgVoRWiTjy0fXE/QjKts6mowUvGxOdPhZ2qj3b0iZdUrNZlW9LAIMFHB4IW+2b3EQ==
   dependencies:
     ansi-colors "3.2.3"
     browser-stdout "1.3.1"
