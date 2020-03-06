@@ -8,3 +8,4 @@ system/
 .DS_Store
 .kodiak.toml
 karma.conf.cjs
+.nvmrc
