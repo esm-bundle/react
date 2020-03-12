@@ -54,7 +54,7 @@
     "release-it": "13.0.1",
     "release-it-plugin-esm-bundle": "2.0.0",
     "rimraf": "3.0.2",
-    "rollup": "2.0.3",
+    "rollup": "2.0.4",
     "rollup-cli": "1.0.9",
     "rollup-plugin-terser": "5.3.0"
   },
