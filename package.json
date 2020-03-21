@@ -6,10 +6,11 @@
   "module": "esm/react.production.min.js",
   "type": "module",
   "scripts": {
-    "test": "yarn build && concurrently yarn:test:unit yarn:test:browser",
+    "test": "yarn build && concurrently -n w: 'yarn:test:*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
-    "test:browser:debug": "karma start karma.conf.cjs",
+    "debug:test:browser": "karma start karma.conf.cjs",
     "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
+    "test:formatting": "prettier --check './**/*'",
     "build": "rollup -c",
     "prettier": "prettier --write './**/*'",
     "release": "release-it",

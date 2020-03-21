@@ -16,17 +16,17 @@ function createDevConfig(format) {
       file: `${dir}/react.development.js`,
       sourcemap: true,
       banner: `/* react@${DevReact.version} development version */`,
-      exports: "named"
+      exports: "named",
     },
     plugins: [
       commonjs(),
       resolve(),
       replace({
         values: {
-          "process.env.NODE_ENV": '"development"'
-        }
-      })
-    ]
+          "process.env.NODE_ENV": '"development"',
+        },
+      }),
+    ],
   };
 }
 
@@ -38,24 +38,24 @@ function createProdConfig(format) {
       file: `${format}/react.production.min.js`,
       sourcemap: true,
       banner: `/* react@${ProdReact.version} production version */`,
-      exports: "named"
+      exports: "named",
     },
     plugins: [
       commonjs(),
       resolve(),
       replace({
         values: {
-          "process.env.NODE_ENV": '"production"'
-        }
+          "process.env.NODE_ENV": '"production"',
+        },
       }),
       terser({
         output: {
           comments(node, comment) {
             return comment.value.trim().startsWith("react@");
-          }
-        }
-      })
-    ]
+          },
+        },
+      }),
+    ],
   };
 }
 
@@ -63,5 +63,5 @@ export default [
   createDevConfig("esm"),
   createDevConfig("system"),
   createProdConfig("esm"),
-  createProdConfig("system")
+  createProdConfig("system"),
 ];

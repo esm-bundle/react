@@ -1,12 +1,12 @@
 import DevReact, {
   useState as devUseState,
   useCallback as devUseCallback,
-  createElement as devCreateElement
+  createElement as devCreateElement,
 } from "../esm/react.development.js";
 import ProdReact, {
   useState as prodUseState,
   useCallback as prodUseCallback,
-  createElement as prodCreateElement
+  createElement as prodCreateElement,
 } from "../esm/react.production.min.js";
 
 describe(`React`, () => {
