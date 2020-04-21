@@ -2014,7 +2014,7 @@ escodegen@^1.11.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-esm-bundle-scripts@^1.0.0:
+esm-bundle-scripts@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/esm-bundle-scripts/-/esm-bundle-scripts-1.0.0.tgz#c5e920f929efd825e32f9cda5dc44ae9c644fb3a"
   integrity sha512-mJlyBnrz3uGVtVRW0lojgXU3uDialmemXU68U/VnMnJBBuou4OnymC8CddzQg3uHHeqhJN3s+017jeLemg/fyg==
