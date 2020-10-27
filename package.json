@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/esm-bundle/react#readme",
   "devDependencies": {
-    "@rollup/plugin-replace": "2.3.3",
+    "@rollup/plugin-replace": "2.3.4",
     "esm-bundle-scripts": "1.2.0",
     "react": "17.0.1"
   },
