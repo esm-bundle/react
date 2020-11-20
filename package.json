@@ -1,9 +1,9 @@
 {
   "name": "@esm-bundle/react",
-  "version": "17.0.1",
+  "version": "17.0.1-fix.0",
   "description": "An ESM version of react",
-  "main": "esm/react.production.min.js",
-  "module": "esm/react.production.min.js",
+  "main": "esm/react.development.js",
+  "module": "esm/react.development.js",
   "type": "module",
   "scripts": {
     "test": "yarn build && concurrently -n w: 'yarn:test:*'",
