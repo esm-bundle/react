@@ -2,6 +2,7 @@
 .gitignore
 LICENSE
 yarn.lock
+pnpm-lock.yaml
 yarn-error.log
 esm/
 system/
