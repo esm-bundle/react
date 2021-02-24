@@ -14,12 +14,9 @@
     "build": "rollup -c",
     "prettier": "prettier --write './**/*'",
     "release": "release-it",
-    "prepublishOnly": "pnpm build"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && yarn test"
-    }
+    "prepublishOnly": "pnpm build",
+    "postinstall": "husky install",
+    "postpublish": "pinst --enable"
   },
   "files": [
     "esm",
@@ -39,12 +36,14 @@
     "@rollup/plugin-replace": "2.3.4",
     "concurrently": "^6.0.0",
     "esm-bundle-scripts": "1.2.0",
-    "husky": "^5.1.1",
+    "husky": "5",
     "karma": "^6.1.1",
     "karma-firefox-launcher": "^2.1.0",
     "karma-jasmine": "^4.0.1",
     "mocha": "^8.3.0",
+    "pinst": "^2.1.6",
     "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
     "react": "17.0.1",
     "release-it": "^14.4.1",
     "release-it-plugin-esm-bundle": "^2.1.0",
