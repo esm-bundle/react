@@ -10,7 +10,7 @@ function createDevConfig(format) {
   const dir = format === "module" ? "esm" : format;
 
   return {
-    input: require.resolve("react/cjs/react.development.js"),
+    input: `src/development.js`,
     output: {
       format,
       file: `${dir}/react.development.js`,
@@ -32,7 +32,7 @@ function createDevConfig(format) {
 
 function createProdConfig(format) {
   return {
-    input: require.resolve("react/cjs/react.production.min.js"),
+    input: `src/production.js`,
     output: {
       format,
       file: `${format}/react.production.min.js`,

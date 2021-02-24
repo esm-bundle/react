@@ -17,6 +17,11 @@ module.exports = function(config) {
       { pattern: "./**/*.*", watched: true, included: false, served: true }
     ],
 
+    plugins: [
+      'karma-jasmine',
+      'karma-firefox-launcher'
+    ],
+
     urlRoot: "/",
 
     // list of files / patterns to exclude
