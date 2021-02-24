@@ -10,7 +10,7 @@ function createDevConfig(format) {
   const dir = format === "module" ? "esm" : format;
 
   return {
-    input: `src/development.js`, //require.resolve("react/cjs/react.development.js"),
+    input: `src/development.js`,
     output: {
       format,
       file: `${dir}/react.development.js`,
