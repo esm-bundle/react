@@ -1,7 +1,7 @@
 devDependencies:
   '@rollup/plugin-commonjs': 17.1.0_rollup@2.39.1
   '@rollup/plugin-node-resolve': 11.2.0_rollup@2.39.1
-  '@rollup/plugin-replace': 2.3.4_rollup@2.39.1
+  '@rollup/plugin-replace': 2.4.1_rollup@2.39.1
   concurrently: 6.0.0
   esm-bundle-scripts: 1.2.0
   husky: 5.1.1
@@ -729,7 +729,7 @@ packages:
       rollup: ^1.20.0||^2.0.0
     resolution:
       integrity: sha512-RxtSL3XmdTAE2byxekYLnx+98kEUOrPHF/KRVjLH+DEIHy6kjIw7YINQzn+NXiH/NTrQLAwYs0GWB+csWygA9Q==
-  /@rollup/plugin-replace/2.3.4_rollup@2.39.1:
+  /@rollup/plugin-replace/2.4.1_rollup@2.39.1:
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.39.1
       magic-string: 0.25.7
@@ -738,7 +738,7 @@ packages:
     peerDependencies:
       rollup: ^1.20.0 || ^2.0.0
     resolution:
-      integrity: sha512-waBhMzyAtjCL1GwZes2jaE9MjuQ/DQF2BatH3fRivUF3z0JBFrU0U6iBNC/4WR+2rLKhaAhPWDNPYp4mI6RqdQ==
+      integrity: sha512-XwC1oK5rrtRJ0tn1ioLHS6OV5JTluJF7QE1J/q1hN3bquwjnVxjtMyY9iCnoyH9DQbf92CxajB3o98wZbP3oAQ==
   /@rollup/pluginutils/3.1.0_rollup@2.39.1:
     dependencies:
       '@types/estree': 0.0.39
@@ -7498,7 +7498,7 @@ packages:
 specifiers:
   '@rollup/plugin-commonjs': 17.1.0
   '@rollup/plugin-node-resolve': ^11.2.0
-  '@rollup/plugin-replace': 2.3.4
+  '@rollup/plugin-replace': 2.4.1
   concurrently: ^6.0.0
   esm-bundle-scripts: 1.2.0
   husky: '5'
