@@ -8,7 +8,7 @@ devDependencies:
   karma: 6.2.0
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1_karma@6.2.0
-  mocha: 8.3.1
+  mocha: 8.3.2
   pinst: 2.1.6
   prettier: 2.2.1
   pretty-quick: 3.1.0_prettier@2.2.1
@@ -4891,7 +4891,7 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-O9CIypScywTVpNaRrCAgoUnJgozpIofjKUYmJhiCIJMiuYnLI6otcb1/kpW9/n/tJODHGZ7i8aLQoDVsMtOKQQ==
-  /mocha/8.3.1:
+  /mocha/8.3.2:
     dependencies:
       '@ungap/promise-all-settled': 1.1.2
       ansi-colors: 4.1.1
@@ -4923,7 +4923,7 @@ packages:
       node: '>= 10.12.0'
     hasBin: true
     resolution:
-      integrity: sha512-5SBMxANWqOv5bw3Hx+HVgaWlcWcFEQDUdaUAr1AUU+qwtx6cowhn7gEDT/DwQP7uYxnvShdUOVLbTYAHOEGfDQ==
+      integrity: sha512-UdmISwr/5w+uXLPKspgoV7/RXZwKRTiTjJ2/AC5ZiEztIoOYdfKb19+9jNmEInzx5pBsCyJQzarAxqIGBNYJhg==
   /mri/1.1.6:
     dev: true
     engines:
@@ -7527,7 +7527,7 @@ specifiers:
   karma: 6.2.0
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1
-  mocha: 8.3.1
+  mocha: 8.3.2
   pinst: 2.1.6
   prettier: 2.2.1
   pretty-quick: 3.1.0
