@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/react",
-  "version": "17.0.1-fix.0",
+  "version": "17.0.2",
   "description": "An ESM version of react",
   "main": "esm/react.development.js",
   "module": "esm/react.development.js",
