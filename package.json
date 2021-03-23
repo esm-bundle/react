@@ -46,7 +46,7 @@
     "pinst": "2.1.6",
     "prettier": "2.2.1",
     "pretty-quick": "3.1.0",
-    "react": "17.0.1",
+    "react": "17.0.2",
     "release-it": "14.5.0",
     "release-it-plugin-esm-bundle": "2.1.0",
     "rollup": "2.42.3",
