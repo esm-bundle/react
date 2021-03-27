@@ -1,5 +1,5 @@
 devDependencies:
-  '@rollup/plugin-commonjs': 17.1.0_rollup@2.42.4
+  '@rollup/plugin-commonjs': 18.0.0_rollup@2.42.4
   '@rollup/plugin-node-resolve': 11.2.1_rollup@2.42.4
   '@rollup/plugin-replace': 2.4.2_rollup@2.42.4
   concurrently: 6.0.0
@@ -691,7 +691,7 @@ packages:
       rollup: ^1.20.0||^2.0.0
     resolution:
       integrity: sha512-Ycr12N3ZPN96Fw2STurD21jMqzKwL9QuFhms3SD7KKRK7oaXUsBU9Zt0jL/rOPHiPYisI21/rXGO3jr9BnLHUA==
-  /@rollup/plugin-commonjs/17.1.0_rollup@2.42.4:
+  /@rollup/plugin-commonjs/18.0.0_rollup@2.42.4:
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.42.4
       commondir: 1.0.1
@@ -707,7 +707,7 @@ packages:
     peerDependencies:
       rollup: ^2.30.0
     resolution:
-      integrity: sha512-PoMdXCw0ZyvjpCMT5aV4nkL0QywxP29sODQsSGeDpr/oI49Qq9tRtAsb/LbYbDzFlOydVEqHmmZWFtXJEAX9ew==
+      integrity: sha512-fj92shhg8luw7XbA0HowAqz90oo7qtLGwqTKbyZ8pmOyH8ui5e+u0wPEgeHLH3djcVma6gUCUrjY6w5R2o1u6g==
   /@rollup/plugin-node-resolve/11.2.1_rollup@2.42.4:
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.42.4
@@ -7584,7 +7584,7 @@ packages:
     resolution:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
-  '@rollup/plugin-commonjs': 17.1.0
+  '@rollup/plugin-commonjs': 18.0.0
   '@rollup/plugin-node-resolve': 11.2.1
   '@rollup/plugin-replace': 2.4.2
   concurrently: 6.0.0
