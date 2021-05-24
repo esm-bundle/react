@@ -15,7 +15,7 @@ specifiers:
   prettier: 2.3.0
   pretty-quick: 3.1.0
   react: 17.0.2
-  release-it: 14.6.2
+  release-it: 14.7.0
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.49.0
   rollup-plugin-terser: 7.0.2
@@ -35,7 +35,7 @@ devDependencies:
   prettier: 2.3.0
   pretty-quick: 3.1.0_prettier@2.3.0
   react: 17.0.2
-  release-it: 14.6.2
+  release-it: 14.7.0
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.49.0
   rollup-plugin-terser: 7.0.2_rollup@2.49.0
@@ -582,7 +582,7 @@ packages:
       '@octokit/auth-token': 2.4.5
       '@octokit/graphql': 4.6.0
       '@octokit/request': 5.4.14
-      '@octokit/types': 6.13.0
+      '@octokit/types': 6.14.2
       before-after-hook: 2.1.1
       universal-user-agent: 6.0.0
     dev: true
@@ -603,10 +603,6 @@ packages:
       universal-user-agent: 6.0.0
     dev: true
 
-  /@octokit/openapi-types/6.0.0:
-    resolution: {integrity: sha512-CnDdK7ivHkBtJYzWzZm7gEkanA7gKH6a09Eguz7flHw//GacPJLmkHA3f3N++MJmlxD1Fl+mB7B32EEpSCwztQ==}
-    dev: true
-
   /@octokit/openapi-types/7.0.0:
     resolution: {integrity: sha512-gV/8DJhAL/04zjTI95a7FhQwS6jlEE0W/7xeYAzuArD0KVAVWDLP2f3vi98hs3HLTczxXdRK/mF0tRoQPpolEw==}
     dev: true
@@ -617,7 +613,7 @@ packages:
       '@octokit/core': '>=2'
     dependencies:
       '@octokit/core': 3.2.5
-      '@octokit/types': 6.13.0
+      '@octokit/types': 6.14.2
     dev: true
 
   /@octokit/plugin-request-log/1.0.3_@octokit+core@3.2.5:
@@ -688,12 +684,6 @@ packages:
     resolution: {integrity: sha512-UZ1pErDue6bZNjYOotCNveTXArOMZQFG6hKJfOnGnulVCMcVVi7YIIuuR4WfBhjo7zgpmzn/BkPDnUXtNx+PcQ==}
     dependencies:
       '@types/node': 14.14.31
-    dev: true
-
-  /@octokit/types/6.13.0:
-    resolution: {integrity: sha512-W2J9qlVIU11jMwKHUp5/rbVUeErqelCsO5vW5PKNb7wAXQVUz87Rc+imjlEvpvbH8yUb+KHmv8NEjVZdsdpyxA==}
-    dependencies:
-      '@octokit/openapi-types': 6.0.0
     dev: true
 
   /@octokit/types/6.14.2:
@@ -3318,8 +3308,8 @@ packages:
       through: 2.3.8
     dev: true
 
-  /inquirer/8.0.0:
-    resolution: {integrity: sha512-ON8pEJPPCdyjxj+cxsYRe6XfCJepTxANdNnTebsTuQgXpRyZRRT9t4dJwjRubgmvn20CLSEnozRUayXyM9VTXA==}
+  /inquirer/8.1.0:
+    resolution: {integrity: sha512-1nKYPoalt1vMBfCMtpomsUc32wmOoWXAoq3kM/5iTfxyQ2f/BxjixQpC+mbZ7BI0JUXHED4/XPXekDVtJNpXYw==}
     engines: {node: '>=8.0.0'}
     dependencies:
       ansi-escapes: 4.3.1
@@ -3330,6 +3320,7 @@ packages:
       figures: 3.2.0
       lodash: 4.17.21
       mute-stream: 0.0.8
+      ora: 5.4.0
       run-async: 2.4.1
       rxjs: 6.6.6
       string-width: 4.2.0
@@ -5619,8 +5610,8 @@ packages:
       yargs-parser: 19.0.4
     dev: true
 
-  /release-it/14.6.2:
-    resolution: {integrity: sha512-rjRe2cC59ueTUGS2rkwI5JEeN0DQlU2eeq4nrCQcwQXv5IzC+9uPd7EvoUT7VDwJ4ZNu1Oh8DZVQqrtDzVboUg==}
+  /release-it/14.7.0:
+    resolution: {integrity: sha512-g8z6BR7qsO1r0HtS4rquRU5PmwHrIZ5jYTuaaa1ZSLrh91Nm23PBpHR/0jsA549Qzujj4W/mkeskoAAIvHugWQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -5638,7 +5629,7 @@ packages:
       globby: 11.0.3
       got: 11.8.2
       import-cwd: 3.0.0
-      inquirer: 8.0.0
+      inquirer: 8.1.0
       is-ci: 3.0.0
       lodash: 4.17.21
       mime-types: 2.1.30
