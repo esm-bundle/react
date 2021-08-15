@@ -15,7 +15,7 @@ specifiers:
   prettier: 2.3.2
   pretty-quick: 3.1.1
   react: 17.0.2
-  release-it: 14.11.4
+  release-it: 14.11.5
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.56.2
   rollup-plugin-terser: 7.0.2
@@ -35,7 +35,7 @@ devDependencies:
   prettier: 2.3.2
   pretty-quick: 3.1.1_prettier@2.3.2
   react: 17.0.2
-  release-it: 14.11.4
+  release-it: 14.11.5
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.56.2
   rollup-plugin-terser: 7.0.2_rollup@2.56.2
@@ -5796,8 +5796,8 @@ packages:
       yargs-parser: 19.0.4
     dev: true
 
-  /release-it/14.11.4:
-    resolution: {integrity: sha512-GDZ9U39vgNZFotykv9UQkzYdnRvlrfM7eEpknOT4rdLAUQsuUKLdUiE2E6T7vQ5XR0zbWQPOUdjVQKE212RmhA==}
+  /release-it/14.11.5:
+    resolution: {integrity: sha512-9BaPdq7ZKOwtzz3p1mRhg/tOH/cT/y2tUnPYzUwQiVdj42JaGI1Vo2l3WbgK8ICsbFyrhc0tri1+iqI8OvkI1A==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -5809,7 +5809,6 @@ packages:
       debug: 4.3.2
       deprecated-obj: 2.0.0
       execa: 5.1.1
-      find-up: 5.0.0
       form-data: 4.0.0
       git-url-parse: 11.5.0
       globby: 11.0.4
