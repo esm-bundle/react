@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 21.0.1
   '@rollup/plugin-node-resolve': 13.0.6
   '@rollup/plugin-replace': 3.0.0
-  concurrently: 6.3.0
+  concurrently: 6.4.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
   karma: 6.3.8
@@ -24,7 +24,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 21.0.1_rollup@2.60.0
   '@rollup/plugin-node-resolve': 13.0.6_rollup@2.60.0
   '@rollup/plugin-replace': 3.0.0_rollup@2.60.0
-  concurrently: 6.3.0
+  concurrently: 6.4.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
   karma: 6.3.8
@@ -1868,15 +1868,15 @@ packages:
       date-fns: 2.17.0
       lodash: 4.17.21
       read-pkg: 4.0.1
-      rxjs: 6.6.3
+      rxjs: 6.6.6
       spawn-command: 0.0.2-1
       supports-color: 6.1.0
       tree-kill: 1.2.2
       yargs: 13.3.2
     dev: true
 
-  /concurrently/6.3.0:
-    resolution: {integrity: sha512-k4k1jQGHHKsfbqzkUszVf29qECBrkvBKkcPJEUDTyVR7tZd1G/JOfnst4g1sYbFvJ4UjHZisj1aWQR8yLKpGPw==}
+  /concurrently/6.4.0:
+    resolution: {integrity: sha512-HZ3D0RTQMH3oS4gvtYj1P+NBc6PzE2McEra6yEFcQKrUQ9HvtTGU4Dbne083F034p+LRb7kWU0tPRNvSGs1UCQ==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
@@ -3279,7 +3279,7 @@ packages:
     hasBin: true
     requiresBuild: true
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       ci-info: 2.0.0
       compare-versions: 3.6.0
       cosmiconfig: 7.0.0
@@ -3391,7 +3391,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       ansi-escapes: 4.3.1
-      chalk: 4.1.0
+      chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-width: 3.0.0
       external-editor: 3.1.0
@@ -3399,7 +3399,7 @@ packages:
       lodash: 4.17.21
       mute-stream: 0.0.8
       run-async: 2.4.1
-      rxjs: 6.6.3
+      rxjs: 6.6.6
       string-width: 4.2.0
       strip-ansi: 6.0.0
       through: 2.3.8
@@ -4559,7 +4559,7 @@ packages:
     resolution: {integrity: sha512-FN8JBzLx6CzeMrB0tg6pqlGU1wCrXW+ZXGH481kfsBqer0hToTIiHdjH4Mq8xJUbvATujKCvaREGWpGUionraA==}
     engines: {node: '>=10'}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
     dev: true
 
   /log-symbols/4.1.0:
@@ -5118,7 +5118,7 @@ packages:
     resolution: {integrity: sha512-s26qdWqke2kjN/wC4dy+IQPBIMWBJlSU/0JZhk30ZDBLelW25rv66yutUWARMigpGPzcXHb+Nac5pNhN/WsARw==}
     engines: {node: '>=10'}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.2
       cli-cursor: 3.1.0
       cli-spinners: 2.5.0
       is-interactive: 1.0.0
@@ -5986,13 +5986,6 @@ packages:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
     dependencies:
       queue-microtask: 1.2.2
-    dev: true
-
-  /rxjs/6.6.3:
-    resolution: {integrity: sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ==}
-    engines: {npm: '>=2.0.0'}
-    dependencies:
-      tslib: 1.14.1
     dev: true
 
   /rxjs/6.6.6:
