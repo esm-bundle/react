@@ -36,7 +36,7 @@
     "@rollup/plugin-commonjs": "21.0.1",
     "@rollup/plugin-node-resolve": "13.1.1",
     "@rollup/plugin-replace": "3.0.0",
-    "concurrently": "6.4.0",
+    "concurrently": "6.5.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "7.0.4",
     "karma": "6.3.9",
