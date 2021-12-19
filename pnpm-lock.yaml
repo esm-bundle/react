@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 21.0.1
   '@rollup/plugin-node-resolve': 13.1.1
   '@rollup/plugin-replace': 3.0.0
-  concurrently: 6.5.0
+  concurrently: 6.5.1
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
   karma: 6.3.9
@@ -24,7 +24,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 21.0.1_rollup@2.61.1
   '@rollup/plugin-node-resolve': 13.1.1_rollup@2.61.1
   '@rollup/plugin-replace': 3.0.0_rollup@2.61.1
-  concurrently: 6.5.0
+  concurrently: 6.5.1
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
   karma: 6.3.9
@@ -1802,8 +1802,8 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/6.5.0:
-    resolution: {integrity: sha512-BjC0KYxXtO6EiWa46gfWYzcLULPBCb+5+VZFtzCemR/co0QSHU4mysEvmT6cnedPpQ9dtJzb+2G694o3V7TgLg==}
+  /concurrently/6.5.1:
+    resolution: {integrity: sha512-FlSwNpGjWQfRwPLXvJ/OgysbBxPkWpiVjy1042b0U7on7S7qwwMIILRj7WTN1mTgqa582bG6NFuScOoh6Zgdag==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
