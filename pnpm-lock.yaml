@@ -7,7 +7,7 @@ specifiers:
   concurrently: 7.0.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
-  karma: 6.3.11
+  karma: 6.3.12
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 4.0.1
   mocha: 9.2.0
@@ -27,9 +27,9 @@ devDependencies:
   concurrently: 7.0.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
-  karma: 6.3.11
+  karma: 6.3.12
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 4.0.1_karma@6.3.11
+  karma-jasmine: 4.0.1_karma@6.3.12
   mocha: 9.2.0
   pinst: 2.1.6
   prettier: 2.5.1
@@ -1598,21 +1598,6 @@ packages:
       readdirp: 3.2.0
     optionalDependencies:
       fsevents: 2.1.3
-    dev: true
-
-  /chokidar/3.5.2:
-    resolution: {integrity: sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ==}
-    engines: {node: '>= 8.10.0'}
-    dependencies:
-      anymatch: 3.1.2
-      braces: 3.0.2
-      glob-parent: 5.1.2
-      is-binary-path: 2.1.0
-      is-glob: 4.0.1
-      normalize-path: 3.0.0
-      readdirp: 3.6.0
-    optionalDependencies:
-      fsevents: 2.3.2
     dev: true
 
   /chokidar/3.5.3:
@@ -4308,14 +4293,14 @@ packages:
       karma: 5.2.3
     dev: true
 
-  /karma-jasmine/4.0.1_karma@6.3.11:
+  /karma-jasmine/4.0.1_karma@6.3.12:
     resolution: {integrity: sha512-h8XDAhTiZjJKzfkoO1laMH+zfNlra+dEQHUAjpn5JV1zCPtOIVWGQjLBrqhnzQa/hrU2XrZwSyBa6XjEBzfXzw==}
     engines: {node: '>= 10'}
     peerDependencies:
       karma: '*'
     dependencies:
       jasmine-core: 3.6.0
-      karma: 6.3.11
+      karma: 6.3.12
     dev: true
 
   /karma/5.2.3:
@@ -4353,19 +4338,19 @@ packages:
       - utf-8-validate
     dev: true
 
-  /karma/6.3.11:
-    resolution: {integrity: sha512-QGUh4yXgizzDNPLB5nWTvP+wysKexngbyLVWFOyikB661hpa2RZLf5anZQzqliWtAQuYVep0ot0D1U7UQKpsxQ==}
+  /karma/6.3.12:
+    resolution: {integrity: sha512-qwIG+oB2YmHx4hjvYSRMNzL3YWAJ9baHaLAxiP7biFNkfpwYTUTtPck0joFpucalNLzMr+7z/FX1uY/kl8DV9A==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
       body-parser: 1.19.0
       braces: 3.0.2
-      chokidar: 3.5.2
+      chokidar: 3.5.3
       colors: 1.4.0
       connect: 3.7.0
       di: 0.0.1
       dom-serialize: 2.2.1
-      glob: 7.1.7
+      glob: 7.2.0
       graceful-fs: 4.2.6
       http-proxy: 1.18.1
       isbinaryfile: 4.0.8
