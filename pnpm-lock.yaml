@@ -7,7 +7,7 @@ specifiers:
   concurrently: 7.0.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
-  karma: 6.3.16
+  karma: 6.3.17
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 4.0.1
   mocha: 9.2.1
@@ -27,9 +27,9 @@ devDependencies:
   concurrently: 7.0.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
-  karma: 6.3.16
+  karma: 6.3.17
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 4.0.1_karma@6.3.16
+  karma-jasmine: 4.0.1_karma@6.3.17
   mocha: 9.2.1
   pinst: 3.0.0
   prettier: 2.5.1
@@ -345,6 +345,11 @@ packages:
     dependencies:
       exec-sh: 0.3.4
       minimist: 1.2.5
+    dev: true
+
+  /@colors/colors/1.5.0:
+    resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
+    engines: {node: '>=0.1.90'}
     dev: true
 
   /@iarna/toml/2.2.5:
@@ -4275,14 +4280,14 @@ packages:
       karma: 5.2.3
     dev: true
 
-  /karma-jasmine/4.0.1_karma@6.3.16:
+  /karma-jasmine/4.0.1_karma@6.3.17:
     resolution: {integrity: sha512-h8XDAhTiZjJKzfkoO1laMH+zfNlra+dEQHUAjpn5JV1zCPtOIVWGQjLBrqhnzQa/hrU2XrZwSyBa6XjEBzfXzw==}
     engines: {node: '>= 10'}
     peerDependencies:
       karma: '*'
     dependencies:
       jasmine-core: 3.6.0
-      karma: 6.3.16
+      karma: 6.3.17
     dev: true
 
   /karma/5.2.3:
@@ -4320,15 +4325,15 @@ packages:
       - utf-8-validate
     dev: true
 
-  /karma/6.3.16:
-    resolution: {integrity: sha512-nEU50jLvDe5yvXqkEJRf8IuvddUkOY2x5Xc4WXHz6dxINgGDrgD2uqQWeVrJs4hbfNaotn+HQ1LZJ4yOXrL7xQ==}
+  /karma/6.3.17:
+    resolution: {integrity: sha512-2TfjHwrRExC8yHoWlPBULyaLwAFmXmxQrcuFImt/JsAsSZu1uOWTZ1ZsWjqQtWpHLiatJOHL5jFjXSJIgCd01g==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
+      '@colors/colors': 1.5.0
       body-parser: 1.19.0
       braces: 3.0.2
       chokidar: 3.5.3
-      colors: 1.4.0
       connect: 3.7.0
       di: 0.0.1
       dom-serialize: 2.2.1
