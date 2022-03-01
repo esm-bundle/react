@@ -11,7 +11,7 @@ jobs:
     env:
       MOZ_HEADLESS: 1
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: "15"
@@ -33,7 +33,7 @@ jobs:
     needs: build
     if: github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           # Use our own token instead of the default token
           # this step persists login credentials so strongly that we couldn't get them to override
