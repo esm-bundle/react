@@ -9,7 +9,7 @@ specifiers:
   husky: 7.0.4
   karma: 6.3.17
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 4.0.2
+  karma-jasmine: 5.0.0
   mocha: 9.2.2
   pinst: 3.0.0
   prettier: 2.6.2
@@ -29,7 +29,7 @@ devDependencies:
   husky: 7.0.4
   karma: 6.3.17
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 4.0.2_karma@6.3.17
+  karma-jasmine: 5.0.0_karma@6.3.17
   mocha: 9.2.2
   pinst: 3.0.0
   prettier: 2.6.2
@@ -3827,6 +3827,10 @@ packages:
     resolution: {integrity: sha512-8uQYa7zJN8hq9z+g8z1bqCfdC8eoDAeVnM5sfqs7KHv9/ifoJ500m018fpFc7RDaO6SWCLCXwo/wPSNcdYTgcw==}
     dev: true
 
+  /jasmine-core/4.1.0:
+    resolution: {integrity: sha512-8E8BiffCL8sBwK1zU9cbavLe8xpJAgOduSJ6N8PJVv8VosQ/nxVTuXj2kUeHxTlZBVvh24G19ga7xdiaxlceKg==}
+    dev: true
+
   /jest-changed-files/25.5.0:
     resolution: {integrity: sha512-EOw9QEqapsDT7mKF162m8HFzRPbmP8qJQny6ldVOdOVBz3ACgPm/1nAn5fPQ/NDaYhX/AHkrGwwkCncpAVSXcw==}
     engines: {node: '>= 8.3'}
@@ -4391,13 +4395,13 @@ packages:
       karma: 5.2.3
     dev: true
 
-  /karma-jasmine/4.0.2_karma@6.3.17:
-    resolution: {integrity: sha512-ggi84RMNQffSDmWSyyt4zxzh2CQGwsxvYYsprgyR1j8ikzIduEdOlcLvXjZGwXG/0j41KUXOWsUCBfbEHPWP9g==}
-    engines: {node: '>= 10'}
+  /karma-jasmine/5.0.0_karma@6.3.17:
+    resolution: {integrity: sha512-dsFkCoTwyoNyQnMgegS72wIA/2xPDJG5yzTry0448U6lAY7P60Wgg4UuLlbdLv8YHbimgNpDXjjmfPdc99EDWQ==}
+    engines: {node: '>=12'}
     peerDependencies:
-      karma: '*'
+      karma: ^6.0.0
     dependencies:
-      jasmine-core: 3.6.0
+      jasmine-core: 4.1.0
       karma: 6.3.17
     dev: true
 
