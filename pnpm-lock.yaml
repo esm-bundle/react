@@ -7,7 +7,7 @@ specifiers:
   concurrently: 7.1.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
-  karma: 6.3.19
+  karma: 6.3.20
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.0.0
   mocha: 10.0.0
@@ -27,9 +27,9 @@ devDependencies:
   concurrently: 7.1.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
-  karma: 6.3.19
+  karma: 6.3.20
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 5.0.0_karma@6.3.19
+  karma-jasmine: 5.0.0_karma@6.3.20
   mocha: 10.0.0
   pinst: 3.0.0
   prettier: 2.6.2
@@ -4706,14 +4706,14 @@ packages:
       karma: 5.2.3
     dev: true
 
-  /karma-jasmine/5.0.0_karma@6.3.19:
+  /karma-jasmine/5.0.0_karma@6.3.20:
     resolution: {integrity: sha512-dsFkCoTwyoNyQnMgegS72wIA/2xPDJG5yzTry0448U6lAY7P60Wgg4UuLlbdLv8YHbimgNpDXjjmfPdc99EDWQ==}
     engines: {node: '>=12'}
     peerDependencies:
       karma: ^6.0.0
     dependencies:
       jasmine-core: 4.1.0
-      karma: 6.3.19
+      karma: 6.3.20
     dev: true
 
   /karma/5.2.3:
@@ -4751,8 +4751,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /karma/6.3.19:
-    resolution: {integrity: sha512-NDhWckzES/Y9xMiddyU1RzaKL76/scCsu8Mp0vR0Z3lQRvC3p72+Ab4ppoxs36S9tyPNX5V48yvaV++RNEBPZw==}
+  /karma/6.3.20:
+    resolution: {integrity: sha512-HRNQhMuKOwKpjYlWiJP0DUrJOh+QjaI/DTaD8b9rEm4Il3tJ8MijutVZH4ts10LuUFst/CedwTS6vieCN8yTSw==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
