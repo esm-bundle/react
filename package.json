@@ -41,7 +41,7 @@
     "husky": "8.0.1",
     "karma": "6.3.20",
     "karma-firefox-launcher": "2.1.2",
-    "karma-jasmine": "5.0.0",
+    "karma-jasmine": "5.0.1",
     "mocha": "10.0.0",
     "pinst": "3.0.0",
     "prettier": "2.6.2",
