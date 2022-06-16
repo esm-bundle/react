@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 22.0.0
   '@rollup/plugin-node-resolve': 13.3.0
   '@rollup/plugin-replace': 4.0.0
-  concurrently: 7.2.1
+  concurrently: 7.2.2
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
   karma: 6.4.0
@@ -24,7 +24,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 22.0.0_rollup@2.75.6
   '@rollup/plugin-node-resolve': 13.3.0_rollup@2.75.6
   '@rollup/plugin-replace': 4.0.0_rollup@2.75.6
-  concurrently: 7.2.1
+  concurrently: 7.2.2
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
   karma: 6.4.0
@@ -416,7 +416,7 @@ packages:
       realpath-native: 2.0.0
       rimraf: 3.0.2
       slash: 3.0.0
-      strip-ansi: 6.0.0
+      strip-ansi: 6.0.1
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -1080,11 +1080,6 @@ packages:
   /ansi-regex/4.1.0:
     resolution: {integrity: sha512-1apePfXM1UOSqw0o9IiFAovVz9M5S1Dg+4TrDwfMewQ6p/rmMueb7tWZjQ1rx4Loy1ArBggoqGpfqqdI4rondg==}
     engines: {node: '>=6'}
-    dev: true
-
-  /ansi-regex/5.0.0:
-    resolution: {integrity: sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg==}
-    engines: {node: '>=8'}
     dev: true
 
   /ansi-regex/5.0.1:
@@ -1903,15 +1898,15 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/7.2.1:
-    resolution: {integrity: sha512-7cab/QyqipqghrVr9qZmoWbidu0nHsmxrpNqQ7r/67vfl1DWJElexehQnTH1p+87tDkihaAjM79xTZyBQh7HLw==}
+  /concurrently/7.2.2:
+    resolution: {integrity: sha512-DcQkI0ruil5BA/g7Xy3EWySGrFJovF5RYAYxwGvv9Jf9q9B1v3jPFP2tl6axExNf1qgF30kjoNYrangZ0ey4Aw==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
       chalk: 4.1.2
       date-fns: 2.17.0
       lodash: 4.17.21
-      rxjs: 6.6.6
+      rxjs: 7.5.5
       shell-quote: 1.7.3
       spawn-command: 0.0.2-1
       supports-color: 8.1.1
@@ -3320,7 +3315,7 @@ packages:
     dev: true
 
   /has-flag/3.0.0:
-    resolution: {integrity: sha1-tdRU3CGZriJWmfNGfloH87lVuv0=}
+    resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
     engines: {node: '>=4'}
     dev: true
 
@@ -3820,7 +3815,7 @@ packages:
     dev: true
 
   /is-fullwidth-code-point/2.0.0:
-    resolution: {integrity: sha1-o7MKXE8ZkYMWeqq5O+764937ZU8=}
+    resolution: {integrity: sha512-VHskAKYM8RfSFXwee5t5cbN5PZeq1Wrh6qd5bkyiXIf6UQcN6w/A0eXM9r6t8d+GYOh+o6ZhiEnb88LN/Y8m2w==}
     engines: {node: '>=4'}
     dev: true
 
@@ -5892,7 +5887,7 @@ packages:
     engines: {node: '>= 8.3'}
     dependencies:
       '@jest/types': 25.5.0
-      ansi-regex: 5.0.0
+      ansi-regex: 5.0.1
       ansi-styles: 4.3.0
       react-is: 16.13.1
     dev: true
@@ -6314,7 +6309,7 @@ packages:
     dev: true
 
   /require-directory/2.1.1:
-    resolution: {integrity: sha1-jGStX9MNqxyXbiNE/+f3kqam30I=}
+    resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -6885,7 +6880,7 @@ packages:
     dev: true
 
   /spawn-command/0.0.2-1:
-    resolution: {integrity: sha1-YvXpRmmBwbeW3Fkpk34RycaSG9A=}
+    resolution: {integrity: sha512-n98l9E2RMSJ9ON1AKisHzz7V42VDiBQGY6PB1BwRglz99wpVsSuGzQ+jOi6lFXBGVTCrRpltvjm+/XA+tpeJrg==}
     dev: true
 
   /spdx-correct/3.1.1:
@@ -7042,7 +7037,7 @@ packages:
     dev: true
 
   /strip-ansi/4.0.0:
-    resolution: {integrity: sha1-qEeQIusaw2iocTibY1JixQXuNo8=}
+    resolution: {integrity: sha512-4XaJ2zQdCzROZDivEVIDPkcQn8LMFSa8kj8Gxb/Lnwzv9A8VctNZ+lfivC/sV3ivW8ElJTERXZoPBRrZKkNKow==}
     engines: {node: '>=4'}
     dependencies:
       ansi-regex: 3.0.0
@@ -7053,13 +7048,6 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       ansi-regex: 4.1.0
-    dev: true
-
-  /strip-ansi/6.0.0:
-    resolution: {integrity: sha512-AuvKTrTfQNYNIctbR1K/YGTR1756GycPsg7b9bdV9Duqur4gv6aKqHXah67Z8ImS7WEz5QVcOtlfW2rZEugt6w==}
-    engines: {node: '>=8'}
-    dependencies:
-      ansi-regex: 5.0.1
     dev: true
 
   /strip-ansi/6.0.1:
