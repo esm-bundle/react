@@ -9,7 +9,7 @@ specifiers:
   husky: 8.0.1
   karma: 6.4.0
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 5.0.1
+  karma-jasmine: 5.1.0
   mocha: 10.0.0
   pinst: 3.0.0
   prettier: 2.7.0
@@ -29,7 +29,7 @@ devDependencies:
   husky: 8.0.1
   karma: 6.4.0
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 5.0.1_karma@6.4.0
+  karma-jasmine: 5.1.0_karma@6.4.0
   mocha: 10.0.0
   pinst: 3.0.0
   prettier: 2.7.0
@@ -4712,8 +4712,8 @@ packages:
       karma: 5.2.3
     dev: true
 
-  /karma-jasmine/5.0.1_karma@6.4.0:
-    resolution: {integrity: sha512-FkL1Kk+JAKmim8VWU8RXKZBpl0lLI7J8LijM0/q7oP7emfB6QMZV1Az+JgqGKSLpF0tYaav+KUVFQroZUxQTHA==}
+  /karma-jasmine/5.1.0_karma@6.4.0:
+    resolution: {integrity: sha512-i/zQLFrfEpRyQoJF9fsCdTMOF5c2dK7C7OmsuKg2D0YSsuZSfQDiLuaiktbuio6F2wiCsZSnSnieIQ0ant/uzQ==}
     engines: {node: '>=12'}
     peerDependencies:
       karma: ^6.0.0
