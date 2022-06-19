@@ -16,7 +16,7 @@ specifiers:
   pretty-quick: 3.1.3
   react: 17.0.2
   release-it: 15.0.0
-  release-it-plugin-esm-bundle: 2.1.0
+  release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.75.6
   rollup-plugin-terser: 7.0.2
 
@@ -36,7 +36,7 @@ devDependencies:
   pretty-quick: 3.1.3_prettier@2.7.1
   react: 17.0.2
   release-it: 15.0.0
-  release-it-plugin-esm-bundle: 2.1.0
+  release-it-plugin-esm-bundle: 3.0.0_release-it@15.0.0
   rollup: 2.75.6
   rollup-plugin-terser: 7.0.2_rollup@2.75.6
 
@@ -6169,6 +6169,14 @@ packages:
 
   /release-it-plugin-esm-bundle/2.1.0:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
+    dev: true
+
+  /release-it-plugin-esm-bundle/3.0.0_release-it@15.0.0:
+    resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
+    peerDependencies:
+      release-it: '>=15.0.0'
+    dependencies:
+      release-it: 15.0.0
     dev: true
 
   /release-it/13.7.1:
