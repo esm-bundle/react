@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/esm-bundle/react#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "22.0.1",
+    "@rollup/plugin-commonjs": "22.0.2",
     "@rollup/plugin-node-resolve": "13.3.0",
     "@rollup/plugin-replace": "4.0.0",
     "concurrently": "7.3.0",
