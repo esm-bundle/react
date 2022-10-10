@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@rollup/plugin-commonjs': 23.0.0
   '@rollup/plugin-node-resolve': 15.0.0
-  '@rollup/plugin-replace': 4.0.0
+  '@rollup/plugin-replace': 5.0.0
   concurrently: 7.4.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
@@ -23,7 +23,7 @@ specifiers:
 devDependencies:
   '@rollup/plugin-commonjs': 23.0.0_rollup@2.79.1
   '@rollup/plugin-node-resolve': 15.0.0_rollup@2.79.1
-  '@rollup/plugin-replace': 4.0.0_rollup@2.79.1
+  '@rollup/plugin-replace': 5.0.0_rollup@2.79.1
   concurrently: 7.4.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
@@ -884,13 +884,17 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-replace/4.0.0_rollup@2.79.1:
-    resolution: {integrity: sha512-+rumQFiaNac9y64OHtkHGmdjm7us9bo1PlbgQfdihQtuNxzjpaB064HbRnewUOggLQxVCCyINfStkgmBeQpv1g==}
+  /@rollup/plugin-replace/5.0.0_rollup@2.79.1:
+    resolution: {integrity: sha512-TiPmjMuBjQM+KLWK16O5TAM/eW4yXBYyQ17FbfeNzBC1t2kzX2aXoa8AlS9XTSmg6/2TNvkER1lMEEeN4Lhavw==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
-      rollup: ^1.20.0 || ^2.0.0
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.79.1
-      magic-string: 0.25.7
+      '@rollup/pluginutils': 4.2.1
+      magic-string: 0.26.6
       rollup: 2.79.1
     dev: true
 
