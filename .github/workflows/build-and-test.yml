@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "15"
-      - uses: pnpm/action-setup@v2.2.3
+      - uses: pnpm/action-setup@v2.2.4
         with:
           version: 5.17.3
       - run: pnpm install --frozen-lockfile
@@ -41,7 +41,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: "15"
-      - uses: pnpm/action-setup@v2.2.3
+      - uses: pnpm/action-setup@v2.2.4
         with:
           version: 5.17.3
       - run: pnpm install --frozen-lockfile
