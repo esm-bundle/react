@@ -12,7 +12,7 @@ specifiers:
   karma-jasmine: 5.1.0
   mocha: 10.2.0
   pinst: 3.0.0
-  prettier: 2.8.3
+  prettier: 2.8.4
   pretty-quick: 3.1.3
   react: 17.0.2
   release-it: 15.6.0
@@ -32,8 +32,8 @@ devDependencies:
   karma-jasmine: 5.1.0_karma@6.4.1
   mocha: 10.2.0
   pinst: 3.0.0
-  prettier: 2.8.3
-  pretty-quick: 3.1.3_prettier@2.8.3
+  prettier: 2.8.4
+  pretty-quick: 3.1.3_prettier@2.8.4
   react: 17.0.2
   release-it: 15.6.0
   release-it-plugin-esm-bundle: 3.0.0_release-it@15.6.0
@@ -2811,8 +2811,8 @@ packages:
       karma-firefox-launcher: 1.3.0
       karma-jasmine: 3.3.1_karma@5.2.3
       mocha: 7.2.0
-      prettier: 2.8.3
-      pretty-quick: 2.0.2_prettier@2.8.3
+      prettier: 2.8.4
+      pretty-quick: 2.0.2_prettier@2.8.4
       release-it: 13.7.1
       release-it-plugin-esm-bundle: 2.1.0
       rollup: 2.79.1
@@ -6223,8 +6223,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier/2.8.3:
-    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -6239,7 +6239,7 @@ packages:
       react-is: 16.13.1
     dev: true
 
-  /pretty-quick/2.0.2_prettier@2.8.3:
+  /pretty-quick/2.0.2_prettier@2.8.4:
     resolution: {integrity: sha512-aLb6vtOTEfJDwi1w+MBTeE20GwPVUYyn6IqNg6TtGpiOB1W3y6vKcsGFjqGeaaEtQgMLSPXTWONqh33UBuwG8A==}
     engines: {node: '>=8'}
     hasBin: true
@@ -6252,10 +6252,10 @@ packages:
       ignore: 5.2.0
       mri: 1.1.6
       multimatch: 4.0.0
-      prettier: 2.8.3
+      prettier: 2.8.4
     dev: true
 
-  /pretty-quick/3.1.3_prettier@2.8.3:
+  /pretty-quick/3.1.3_prettier@2.8.4:
     resolution: {integrity: sha512-kOCi2FJabvuh1as9enxYmrnBC6tVMoVOenMaBqRfsvBHB0cbpYHjdQEpSglpASDFEXVwplpcGR4CLEaisYAFcA==}
     engines: {node: '>=10.13'}
     hasBin: true
@@ -6268,7 +6268,7 @@ packages:
       ignore: 5.1.8
       mri: 1.1.6
       multimatch: 4.0.0
-      prettier: 2.8.3
+      prettier: 2.8.4
     dev: true
 
   /promise.allsettled/1.0.6:
