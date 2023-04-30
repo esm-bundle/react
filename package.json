@@ -39,7 +39,7 @@
     "concurrently": "7.6.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "8.0.3",
-    "karma": "6.4.1",
+    "karma": "6.4.2",
     "karma-firefox-launcher": "2.1.2",
     "karma-jasmine": "5.1.0",
     "mocha": "10.2.0",
