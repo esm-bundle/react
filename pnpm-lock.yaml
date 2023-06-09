@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 25.0.0
   '@rollup/plugin-node-resolve': 15.1.0
   '@rollup/plugin-replace': 5.0.2
-  concurrently: 8.1.0
+  concurrently: 8.2.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.3
   karma: 6.4.2
@@ -24,7 +24,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 25.0.0_rollup@2.79.1
   '@rollup/plugin-node-resolve': 15.1.0_rollup@2.79.1
   '@rollup/plugin-replace': 5.0.2_rollup@2.79.1
-  concurrently: 8.1.0
+  concurrently: 8.2.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.3
   karma: 6.4.2
@@ -2113,17 +2113,17 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/8.1.0:
-    resolution: {integrity: sha512-0AB6eOAtaW/r/kX2lCdolaWtT191ICeuJjEJvI9hT3zbPFuZ/iZaJwMRKwbuwADome7OKxk73L7od+fsveZ7tA==}
+  /concurrently/8.2.0:
+    resolution: {integrity: sha512-nnLMxO2LU492mTUj9qX/az/lESonSZu81UznYDoXtz1IQf996ixVqPAgHXwvHiHCAef/7S8HIK+fTFK7Ifk8YA==}
     engines: {node: ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
       chalk: 4.1.2
       date-fns: 2.30.0
       lodash: 4.17.21
-      rxjs: 7.8.0
+      rxjs: 7.8.1
       shell-quote: 1.8.1
-      spawn-command: 0.0.2-1
+      spawn-command: 0.0.2
       supports-color: 8.1.1
       tree-kill: 1.2.2
       yargs: 17.7.2
@@ -7014,12 +7014,6 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.8.0:
-    resolution: {integrity: sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==}
-    dependencies:
-      tslib: 2.1.0
-    dev: true
-
   /rxjs/7.8.1:
     resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
     dependencies:
@@ -7423,6 +7417,10 @@ packages:
   /sourcemap-codec/1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     deprecated: Please use @jridgewell/sourcemap-codec instead
+    dev: true
+
+  /spawn-command/0.0.2:
+    resolution: {integrity: sha512-zC8zGoGkmc8J9ndvml8Xksr1Amk9qBujgbF0JAIWO7kXr43w0h/0GJNM/Vustixu+YE8N/MTrQ7N31FvHUACxQ==}
     dev: true
 
   /spawn-command/0.0.2-1:
