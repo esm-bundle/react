@@ -12,7 +12,7 @@ specifiers:
   karma-jasmine: 5.1.0
   mocha: 10.2.0
   pinst: 3.0.0
-  prettier: 2.8.8
+  prettier: 3.0.0
   pretty-quick: 3.1.3
   react: 17.0.2
   release-it: 15.11.0
@@ -32,8 +32,8 @@ devDependencies:
   karma-jasmine: 5.1.0_karma@6.4.2
   mocha: 10.2.0
   pinst: 3.0.0
-  prettier: 2.8.8
-  pretty-quick: 3.1.3_prettier@2.8.8
+  prettier: 3.0.0
+  pretty-quick: 3.1.3_prettier@3.0.0
   react: 17.0.2
   release-it: 15.11.0
   release-it-plugin-esm-bundle: 3.0.0_release-it@15.11.0
@@ -6344,6 +6344,12 @@ packages:
     hasBin: true
     dev: true
 
+  /prettier/3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
   /pretty-format/25.5.0:
     resolution: {integrity: sha512-kbo/kq2LQ/A/is0PQwsEHM7Ca6//bGPPvU6UnsdDRSKTWxT/ru/xb88v4BJf6a69H+uTytOEsTusT9ksd/1iWQ==}
     engines: {node: '>= 8.3'}
@@ -6370,7 +6376,7 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /pretty-quick/3.1.3_prettier@2.8.8:
+  /pretty-quick/3.1.3_prettier@3.0.0:
     resolution: {integrity: sha512-kOCi2FJabvuh1as9enxYmrnBC6tVMoVOenMaBqRfsvBHB0cbpYHjdQEpSglpASDFEXVwplpcGR4CLEaisYAFcA==}
     engines: {node: '>=10.13'}
     hasBin: true
@@ -6383,7 +6389,7 @@ packages:
       ignore: 5.1.8
       mri: 1.1.6
       multimatch: 4.0.0
-      prettier: 2.8.8
+      prettier: 3.0.0
     dev: true
 
   /promise.allsettled/1.0.6:
