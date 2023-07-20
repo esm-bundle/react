@@ -15,7 +15,7 @@ specifiers:
   prettier: 3.0.0
   pretty-quick: 3.1.3
   react: 17.0.2
-  release-it: 16.1.2
+  release-it: 16.1.3
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2
@@ -35,8 +35,8 @@ devDependencies:
   prettier: 3.0.0
   pretty-quick: 3.1.3_prettier@3.0.0
   react: 17.0.2
-  release-it: 16.1.2
-  release-it-plugin-esm-bundle: 3.0.0_release-it@16.1.2
+  release-it: 16.1.3
+  release-it-plugin-esm-bundle: 3.0.0_release-it@16.1.3
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
 
@@ -988,6 +988,10 @@ packages:
       defer-to-connect: 2.0.1
     dev: true
 
+  /@tootallnate/quickjs-emscripten/0.23.0:
+    resolution: {integrity: sha512-C5Mc6rdnsaJDjO3UpGW/CQTHtCKaYlScZTly4JIu97Jxo/odCiH0ITnDXSJPTOrEKk/ycSZ0AOgTmkDtkOsvIA==}
+    dev: true
+
   /@types/babel__core/7.1.12:
     resolution: {integrity: sha512-wMTHiiTiBAAPebqaPiPDLFA4LYPKr6Ph0Xq/6rq1Ur3v66HXyG+clfR9CNETkD7MQS8ZHvpQOtA53DLws5WAEQ==}
     dependencies:
@@ -1150,11 +1154,6 @@ packages:
 
   /acorn-walk/6.2.0:
     resolution: {integrity: sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==}
-    engines: {node: '>=0.4.0'}
-    dev: true
-
-  /acorn-walk/8.2.0:
-    resolution: {integrity: sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==}
     engines: {node: '>=0.4.0'}
     dev: true
 
@@ -2527,14 +2526,13 @@ packages:
       isobject: 3.0.1
     dev: true
 
-  /degenerator/4.0.2:
-    resolution: {integrity: sha512-HKwIFvZROUMfH3qI3gBpD61BYh7q3c3GXD5UGZzoVNJwVSYgZKvYl1fRMXc9ozoTxl/VZxKJ5v/bA+19tywFiw==}
+  /degenerator/5.0.1:
+    resolution: {integrity: sha512-TllpMR/t0M5sqCXfj85i4XaAzxmS5tVA16dqvdkMwGmzI+dXLXnw3J+3Vdv7VKw+ThlTMboK6i9rnZ6Nntj5CQ==}
     engines: {node: '>= 14'}
     dependencies:
       ast-types: 0.13.4
-      escodegen: 1.14.3
+      escodegen: 2.1.0
       esprima: 4.0.1
-      vm2: 3.9.19
     dev: true
 
   /delayed-stream/1.0.0:
@@ -2866,6 +2864,18 @@ packages:
       source-map: 0.6.1
     dev: true
 
+  /escodegen/2.1.0:
+    resolution: {integrity: sha512-2NlIDTwUWJN0mRPQOdtQBzbUHvdGY2P1VXSyU83Q3xKxM7WHX2Ql8dKq782Q9TgQUNOLEzEYu9bzLNj1q88I5w==}
+    engines: {node: '>=6.0'}
+    hasBin: true
+    dependencies:
+      esprima: 4.0.1
+      estraverse: 5.3.0
+      esutils: 2.0.3
+    optionalDependencies:
+      source-map: 0.6.1
+    dev: true
+
   /esm-bundle-scripts/1.2.0:
     resolution: {integrity: sha512-N+5V8oL8XsdXjruLfSlX3JCuuvcmNf69feL8zLBVpttyHAHufBn5aN3U7nnNJRxMs7zeaH63s9pF/X6A5iZscg==}
     dependencies:
@@ -2903,6 +2913,11 @@ packages:
 
   /estraverse/4.3.0:
     resolution: {integrity: sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==}
+    engines: {node: '>=4.0'}
+    dev: true
+
+  /estraverse/5.3.0:
+    resolution: {integrity: sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==}
     engines: {node: '>=4.0'}
     dev: true
 
@@ -3118,17 +3133,6 @@ packages:
 
   /fast-deep-equal/3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
-    dev: true
-
-  /fast-glob/3.2.11:
-    resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
-    engines: {node: '>=8.6.0'}
-    dependencies:
-      '@nodelib/fs.stat': 2.0.4
-      '@nodelib/fs.walk': 1.2.6
-      glob-parent: 5.1.2
-      merge2: 1.4.1
-      micromatch: 4.0.5
     dev: true
 
   /fast-glob/3.3.0:
@@ -3549,8 +3553,8 @@ packages:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.2.11
-      ignore: 5.2.0
+      fast-glob: 3.3.0
+      ignore: 5.2.4
       merge2: 1.4.1
       slash: 3.0.0
     dev: true
@@ -3899,11 +3903,6 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /ignore/5.2.0:
-    resolution: {integrity: sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==}
-    engines: {node: '>= 4'}
-    dev: true
-
   /ignore/5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
     engines: {node: '>= 4'}
@@ -4046,8 +4045,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /ip/1.1.5:
-    resolution: {integrity: sha512-rBtCAQAJm8A110nbwn6YdveUnuZH3WrC36IwkRXxDnq53JvXA2NVQvB7IHyKomxK1MJ4VDNw3UtFDdXQ+AvLYA==}
+  /ip/1.1.8:
+    resolution: {integrity: sha512-PuExPYUiu6qMBQb4l06ecm6T6ujzhmh+MeJcW9wa89PoAz5pvd4zPgN5WJV104mb6S2T1AwNIAaB70JNrLQWhg==}
     dev: true
 
   /ip/2.0.0:
@@ -6126,27 +6125,28 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /pac-proxy-agent/6.0.4:
-    resolution: {integrity: sha512-FbJYeusBOZNe6bmrC2/+r/HljwExryon16lNKEU82gWiwIPMCEktUPSEAcTkO9K3jd/YPGuX/azZel1ltmo6nQ==}
+  /pac-proxy-agent/7.0.0:
+    resolution: {integrity: sha512-t4tRAMx0uphnZrio0S0Jw9zg3oDbz1zVhQ/Vy18FjLfP1XOLNUEjaVxYCYRI6NS+BsMBXKIzV6cTLOkO9AtywA==}
     engines: {node: '>= 14'}
     dependencies:
+      '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.0
       debug: 4.3.4
       get-uri: 6.0.1
       http-proxy-agent: 7.0.0
       https-proxy-agent: 7.0.0
-      pac-resolver: 6.0.1
+      pac-resolver: 7.0.0
       socks-proxy-agent: 8.0.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /pac-resolver/6.0.1:
-    resolution: {integrity: sha512-dg497MhVT7jZegPRuOScQ/z0aV/5WR0gTdRu1md+Irs9J9o+ls5jIuxjo1WfaTG+eQQkxyn5HMGvWK+w7EIBkQ==}
+  /pac-resolver/7.0.0:
+    resolution: {integrity: sha512-Fd9lT9vJbHYRACT8OhCbZBbxr6KRSawSovFpy8nDGshaK99S/EBhVIHp9+crhxrsZOuvLpgL1n23iyPg6Rl2hg==}
     engines: {node: '>= 14'}
     dependencies:
-      degenerator: 4.0.2
-      ip: 1.1.5
+      degenerator: 5.0.1
+      ip: 1.1.8
       netmask: 2.0.2
     dev: true
 
@@ -6403,7 +6403,7 @@ packages:
       chalk: 2.4.2
       execa: 2.1.0
       find-up: 4.1.0
-      ignore: 5.2.0
+      ignore: 5.2.4
       mri: 1.1.6
       multimatch: 4.0.0
       prettier: 2.8.8
@@ -6457,8 +6457,8 @@ packages:
     resolution: {integrity: sha512-/XJ368cyBJ7fzLMwLKv1e4vLxOju2MNAIokcr7meSaNcVbWz/CPcW22cP04mwxOErdA5mwjA8Q6w/cdAQxVn7Q==}
     dev: true
 
-  /proxy-agent/6.2.2:
-    resolution: {integrity: sha512-wPQ+zf4bFG3wtqX9L8xNEK6vfOmaZABbpN2NslLLSlbfTKbUL7X1LqwpPVdbsbloAFvtWAmnVhJQ3vkagxKUTA==}
+  /proxy-agent/6.3.0:
+    resolution: {integrity: sha512-0LdR757eTj/JfuU7TL2YCuAZnxWXu3tkJbg4Oq3geW/qFNT/32T0sp2HnZ9O0lMR4q3vwAt0+xCA8SR0WAD0og==}
     engines: {node: '>= 14'}
     dependencies:
       agent-base: 7.1.0
@@ -6466,7 +6466,7 @@ packages:
       http-proxy-agent: 7.0.0
       https-proxy-agent: 7.0.0
       lru-cache: 7.18.3
-      pac-proxy-agent: 6.0.4
+      pac-proxy-agent: 7.0.0
       proxy-from-env: 1.1.0
       socks-proxy-agent: 8.0.1
     transitivePeerDependencies:
@@ -6705,12 +6705,12 @@ packages:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
     dev: true
 
-  /release-it-plugin-esm-bundle/3.0.0_release-it@16.1.2:
+  /release-it-plugin-esm-bundle/3.0.0_release-it@16.1.3:
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 16.1.2
+      release-it: 16.1.3
     dev: true
 
   /release-it/13.7.1:
@@ -6753,8 +6753,8 @@ packages:
       - encoding
     dev: true
 
-  /release-it/16.1.2:
-    resolution: {integrity: sha512-dRamWBWMLJcsPl0G3M7q/hkwPv4i0buUEKWwNp/MY9mBIBcUmBSCvm4B1CdN28LUgqrBzWVurnnNCcz6IPeQKQ==}
+  /release-it/16.1.3:
+    resolution: {integrity: sha512-NoK3gxOcAtnmp9tz9pbq+IgMFTaPly/B8FWzKObOAGDl5BAC5BDcbWqr3lXyjlLqI+vd/NtO6tQIduIlpNLALg==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
@@ -6778,7 +6778,7 @@ packages:
       ora: 6.3.1
       os-name: 5.1.0
       promise.allsettled: 1.0.6
-      proxy-agent: 6.2.2
+      proxy-agent: 6.3.0
       semver: 7.5.4
       shelljs: 0.8.5
       update-notifier: 6.0.2
@@ -8162,16 +8162,6 @@ packages:
       assert-plus: 1.0.0
       core-util-is: 1.0.2
       extsprintf: 1.3.0
-    dev: true
-
-  /vm2/3.9.19:
-    resolution: {integrity: sha512-J637XF0DHDMV57R6JyVsTak7nIL8gy5KH4r1HiwWLf/4GBbb5MKL5y7LpmF4A8E2nR6XmzpmMFQ7V7ppPTmUQg==}
-    engines: {node: '>=6.0'}
-    deprecated: The library contains critical security issues and should not be used for production! The maintenance of the project has been discontinued. Consider migrating your code to isolated-vm.
-    hasBin: true
-    dependencies:
-      acorn: 8.7.1
-      acorn-walk: 8.2.0
     dev: true
 
   /void-elements/2.0.1:
