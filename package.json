@@ -35,7 +35,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "25.0.7",
     "@rollup/plugin-node-resolve": "15.2.3",
-    "@rollup/plugin-replace": "5.0.4",
+    "@rollup/plugin-replace": "5.0.5",
     "concurrently": "8.2.2",
     "esm-bundle-scripts": "1.2.0",
     "husky": "8.0.3",
