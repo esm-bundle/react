@@ -13,7 +13,7 @@ specifiers:
   mocha: 10.2.0
   pinst: 3.0.0
   prettier: 3.2.2
-  pretty-quick: 3.1.4
+  pretty-quick: 3.2.1
   react: 17.0.2
   release-it: 17.0.1
   release-it-plugin-esm-bundle: 3.0.0
@@ -33,7 +33,7 @@ devDependencies:
   mocha: 10.2.0
   pinst: 3.0.0
   prettier: 3.2.2
-  pretty-quick: 3.1.4_prettier@3.2.2
+  pretty-quick: 3.2.1_prettier@3.2.2
   react: 17.0.2
   release-it: 17.0.1
   release-it-plugin-esm-bundle: 3.0.0_release-it@17.0.1
@@ -3652,7 +3652,7 @@ packages:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.3.2
-      ignore: 5.2.4
+      ignore: 5.3.0
       merge2: 1.4.1
       slash: 3.0.0
     dev: true
@@ -3663,7 +3663,7 @@ packages:
     dependencies:
       '@sindresorhus/merge-streams': 1.0.0
       fast-glob: 3.3.2
-      ignore: 5.2.4
+      ignore: 5.3.0
       path-type: 5.0.0
       slash: 5.1.0
       unicorn-magic: 0.1.0
@@ -4006,11 +4006,6 @@ packages:
 
   /ieee754/1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
-    dev: true
-
-  /ignore/5.2.4:
-    resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
-    engines: {node: '>= 4'}
     dev: true
 
   /ignore/5.3.0:
@@ -5770,11 +5765,6 @@ packages:
       yargs-unparser: 1.6.0
     dev: true
 
-  /mri/1.1.6:
-    resolution: {integrity: sha512-oi1b3MfbyGa7FJMP9GmLTttni5JoICpYBRlq+x5V16fZbLsnL9N3wFqqIm/nIG43FjUFkFh9Epzp/kzUGUnJxQ==}
-    engines: {node: '>=4'}
-    dev: true
-
   /mri/1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
     engines: {node: '>=4'}
@@ -6550,14 +6540,14 @@ packages:
       chalk: 2.4.2
       execa: 2.1.0
       find-up: 4.1.0
-      ignore: 5.2.4
-      mri: 1.1.6
+      ignore: 5.3.0
+      mri: 1.2.0
       multimatch: 4.0.0
       prettier: 2.8.8
     dev: true
 
-  /pretty-quick/3.1.4_prettier@3.2.2:
-    resolution: {integrity: sha512-/sx+sUrD52omQQII19m7Zw4gZevQTbA73HDMqzFoBIAf6pCL4kVxSk3O9IRN9Ud/wt/Q068/WOdgiBJeMI7EbQ==}
+  /pretty-quick/3.2.1_prettier@3.2.2:
+    resolution: {integrity: sha512-eeoyODyxk6SGTWDwIddoCKaCbgzI/BF17PuRC+ejXWDja5TS6iiXF1emmPY1nXKVwDVPsQ6WudYmD/mlj1EZng==}
     engines: {node: '>=10.13'}
     hasBin: true
     peerDependencies:
@@ -6570,6 +6560,7 @@ packages:
       mri: 1.2.0
       multimatch: 5.0.0
       prettier: 3.2.2
+      tslib: 2.6.2
     dev: true
 
   /promise.allsettled/1.0.7:
@@ -8096,6 +8087,10 @@ packages:
 
   /tslib/2.1.0:
     resolution: {integrity: sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==}
+    dev: true
+
+  /tslib/2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
   /tunnel-agent/0.6.0:
