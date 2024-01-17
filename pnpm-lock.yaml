@@ -13,7 +13,7 @@ specifiers:
   mocha: 10.2.0
   pinst: 3.0.0
   prettier: 3.2.3
-  pretty-quick: 3.3.1
+  pretty-quick: 4.0.0
   react: 17.0.2
   release-it: 17.0.1
   release-it-plugin-esm-bundle: 3.0.0
@@ -33,7 +33,7 @@ devDependencies:
   mocha: 10.2.0
   pinst: 3.0.0
   prettier: 3.2.3
-  pretty-quick: 3.3.1_prettier@3.2.3
+  pretty-quick: 4.0.0_prettier@3.2.3
   react: 17.0.2
   release-it: 17.0.1
   release-it-plugin-esm-bundle: 3.0.0_release-it@17.0.1
@@ -6544,15 +6544,15 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /pretty-quick/3.3.1_prettier@3.2.3:
-    resolution: {integrity: sha512-3b36UXfYQ+IXXqex6mCca89jC8u0mYLqFAN5eTQKoXO6oCQYcIVYZEB/5AlBHI7JPYygReM2Vv6Vom/Gln7fBg==}
-    engines: {node: '>=10.13'}
+  /pretty-quick/4.0.0_prettier@3.2.3:
+    resolution: {integrity: sha512-M+2MmeufXb/M7Xw3Afh1gxcYpj+sK0AxEfnfF958ktFeAyi5MsKY5brymVURQLgPLV1QaF5P4pb2oFJ54H3yzQ==}
+    engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
-      prettier: ^2.0.0
+      prettier: ^3.0.0
     dependencies:
-      execa: 4.1.0
-      find-up: 4.1.0
+      execa: 5.1.1
+      find-up: 5.0.0
       ignore: 5.3.0
       mri: 1.2.0
       picocolors: 1.0.0
