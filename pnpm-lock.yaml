@@ -13,7 +13,7 @@ specifiers:
   mocha: 10.2.0
   pinst: 3.0.0
   prettier: 3.2.3
-  pretty-quick: 3.2.1
+  pretty-quick: 3.3.1
   react: 17.0.2
   release-it: 17.0.1
   release-it-plugin-esm-bundle: 3.0.0
@@ -33,7 +33,7 @@ devDependencies:
   mocha: 10.2.0
   pinst: 3.0.0
   prettier: 3.2.3
-  pretty-quick: 3.2.1_prettier@3.2.3
+  pretty-quick: 3.3.1_prettier@3.2.3
   react: 17.0.2
   release-it: 17.0.1
   release-it-plugin-esm-bundle: 3.0.0_release-it@17.0.1
@@ -1380,7 +1380,7 @@ packages:
     resolution: {integrity: sha512-x1FCFnFifvYDDzTaLII71vG5uvDwgtmDTEVWAxrgeiR8VjMONcCXJx7E+USjDtHlwFmt9MysbqgF9b9Vjr6w+w==}
     engines: {node: '>=4'}
     dependencies:
-      tslib: 2.1.0
+      tslib: 2.6.2
     dev: true
 
   /astral-regex/1.0.0:
@@ -5797,17 +5797,6 @@ packages:
       minimatch: 3.0.4
     dev: true
 
-  /multimatch/5.0.0:
-    resolution: {integrity: sha512-ypMKuglUrZUD99Tk2bUQ+xNQj43lPEfAeX2o9cTteAmShXy2VHDJpuwu1o0xqoKCt9jLVAvwyFKdLTPXKAfJyA==}
-    engines: {node: '>=10'}
-    dependencies:
-      '@types/minimatch': 3.0.3
-      array-differ: 3.0.0
-      array-union: 2.1.0
-      arrify: 2.0.1
-      minimatch: 3.0.4
-    dev: true
-
   /mute-stream/0.0.8:
     resolution: {integrity: sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==}
     dev: true
@@ -6441,9 +6430,18 @@ packages:
     resolution: {integrity: sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=}
     dev: true
 
+  /picocolors/1.0.0:
+    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
+    dev: true
+
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+    dev: true
+
+  /picomatch/3.0.1:
+    resolution: {integrity: sha512-I3EurrIQMlRc9IaAZnqRR044Phh2DXY+55o7uJ0V+hYZAcQYSuFWsc9q5PvyDHUSCe1Qxn/iBz+78s86zWnGag==}
+    engines: {node: '>=10'}
     dev: true
 
   /pify/2.3.0:
@@ -6546,19 +6544,19 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /pretty-quick/3.2.1_prettier@3.2.3:
-    resolution: {integrity: sha512-eeoyODyxk6SGTWDwIddoCKaCbgzI/BF17PuRC+ejXWDja5TS6iiXF1emmPY1nXKVwDVPsQ6WudYmD/mlj1EZng==}
+  /pretty-quick/3.3.1_prettier@3.2.3:
+    resolution: {integrity: sha512-3b36UXfYQ+IXXqex6mCca89jC8u0mYLqFAN5eTQKoXO6oCQYcIVYZEB/5AlBHI7JPYygReM2Vv6Vom/Gln7fBg==}
     engines: {node: '>=10.13'}
     hasBin: true
     peerDependencies:
       prettier: ^2.0.0
     dependencies:
-      chalk: 4.1.2
       execa: 4.1.0
       find-up: 4.1.0
       ignore: 5.3.0
       mri: 1.2.0
-      multimatch: 5.0.0
+      picocolors: 1.0.0
+      picomatch: 3.0.1
       prettier: 3.2.3
       tslib: 2.6.2
     dev: true
@@ -7194,7 +7192,7 @@ packages:
   /rxjs/7.8.1:
     resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
     dependencies:
-      tslib: 2.1.0
+      tslib: 2.6.2
     dev: true
 
   /safe-array-concat/1.0.1:
@@ -8083,10 +8081,6 @@ packages:
 
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
-    dev: true
-
-  /tslib/2.1.0:
-    resolution: {integrity: sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==}
     dev: true
 
   /tslib/2.6.2:
