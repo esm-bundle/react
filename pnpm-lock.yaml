@@ -6,7 +6,7 @@ specifiers:
   '@rollup/plugin-replace': 5.0.5
   concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
-  husky: 9.0.6
+  husky: 9.0.7
   karma: 6.4.2
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.1.0
@@ -26,7 +26,7 @@ devDependencies:
   '@rollup/plugin-replace': 5.0.5_rollup@2.79.1
   concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
-  husky: 9.0.6
+  husky: 9.0.7
   karma: 6.4.2
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.1.0_karma@6.4.2
@@ -3954,8 +3954,8 @@ packages:
       which-pm-runs: 1.0.0
     dev: true
 
-  /husky/9.0.6:
-    resolution: {integrity: sha512-EEuw/rfTiMjOfuL7pGO/i9otg1u36TXxqjIA6D9qxVjd/UXoDOsLor/BSFf5hTK50shwzCU3aVVwdXDp/lp7RA==}
+  /husky/9.0.7:
+    resolution: {integrity: sha512-vWdusw+y12DUEeoZqW1kplOFqk3tedGV8qlga8/SF6a3lOiWLqGZZQvfWvY0fQYdfiRi/u1DFNpudTSV9l1aCg==}
     engines: {node: '>=18'}
     hasBin: true
     dev: true
