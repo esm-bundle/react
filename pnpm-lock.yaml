@@ -7,7 +7,7 @@ specifiers:
   concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
   husky: 9.0.11
-  karma: 6.4.2
+  karma: 6.4.3
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.1.0
   mocha: 10.3.0
@@ -27,9 +27,9 @@ devDependencies:
   concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
   husky: 9.0.11
-  karma: 6.4.2
+  karma: 6.4.3
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 5.1.0_karma@6.4.2
+  karma-jasmine: 5.1.0_karma@6.4.3
   mocha: 10.3.0
   pinst: 3.0.0
   prettier: 3.2.5
@@ -958,9 +958,8 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@socket.io/base64-arraybuffer/1.0.2:
-    resolution: {integrity: sha512-dOlCBKnDw4iShaIsH/bxujKTM18+2TOAsYz+KSc11Am38H4q5Xw8Bbz97ZYdrVNM+um3p7w86Bvvmcn9q+5+eQ==}
-    engines: {node: '>= 0.6.0'}
+  /@socket.io/component-emitter/3.1.0:
+    resolution: {integrity: sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg==}
     dev: true
 
   /@szmarczak/http-timer/1.1.2:
@@ -1024,10 +1023,6 @@ packages:
       '@types/keyv': 3.1.1
       '@types/node': 14.14.31
       '@types/responselike': 1.0.0
-    dev: true
-
-  /@types/component-emitter/1.2.10:
-    resolution: {integrity: sha512-bsjleuRKWmGqajMerkzox19aGbscQX5rmmvvXl3wlIp5gMG1HgkiwPxsN5p070fBDKTNSPgojVbuY1+HWMbFhg==}
     dev: true
 
   /@types/cookie/0.4.1:
@@ -2715,11 +2710,9 @@ packages:
       has-binary2: 1.0.3
     dev: true
 
-  /engine.io-parser/5.0.3:
-    resolution: {integrity: sha512-BtQxwF27XUNnSafQLvDi0dQ8s3i6VgzSoQMJacpIcGNrlUdfHSKbgm3jmjCVvQluGzqwujQMPAoMai3oYSTurg==}
+  /engine.io-parser/5.2.2:
+    resolution: {integrity: sha512-RcyUFKA93/CXH20l4SoVvzZfrSDMOTUS3bWVpTt2FuFP+XYrL8i8oonHP7WInRyVHXh0n/ORtoeiE1os+8qkSw==}
     engines: {node: '>=10.0.0'}
-    dependencies:
-      '@socket.io/base64-arraybuffer': 1.0.2
     dev: true
 
   /engine.io/3.5.0:
@@ -2738,9 +2731,9 @@ packages:
       - utf-8-validate
     dev: true
 
-  /engine.io/6.1.3:
-    resolution: {integrity: sha512-rqs60YwkvWTLLnfazqgZqLa/aKo+9cueVfEi/dZ8PyGyaf8TLOxj++4QMIgeG3Gn0AhrWiFXvghsoY9L9h25GA==}
-    engines: {node: '>=10.0.0'}
+  /engine.io/6.5.4:
+    resolution: {integrity: sha512-KdVSDKhVKyOi+r5uEabrDLZw2qXStVvCsEB/LN3mw4WFi6Gx50jTyuxYVCwAAC0U46FdnzP/ScKRBTXb/NiEOg==}
+    engines: {node: '>=10.2.0'}
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.12
@@ -2750,8 +2743,8 @@ packages:
       cookie: 0.4.1
       cors: 2.8.5
       debug: 4.3.4
-      engine.io-parser: 5.0.3
-      ws: 8.2.3
+      engine.io-parser: 5.2.2
+      ws: 8.11.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -5238,14 +5231,14 @@ packages:
       karma: 5.2.3
     dev: true
 
-  /karma-jasmine/5.1.0_karma@6.4.2:
+  /karma-jasmine/5.1.0_karma@6.4.3:
     resolution: {integrity: sha512-i/zQLFrfEpRyQoJF9fsCdTMOF5c2dK7C7OmsuKg2D0YSsuZSfQDiLuaiktbuio6F2wiCsZSnSnieIQ0ant/uzQ==}
     engines: {node: '>=12'}
     peerDependencies:
       karma: ^6.0.0
     dependencies:
       jasmine-core: 4.1.0
-      karma: 6.4.2
+      karma: 6.4.3
     dev: true
 
   /karma/5.2.3:
@@ -5283,8 +5276,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /karma/6.4.2:
-    resolution: {integrity: sha512-C6SU/53LB31BEgRg+omznBEMY4SjHU3ricV6zBcAe1EeILKkeScr+fZXtaI5WyDbkVowJxxAI6h73NcFPmXolQ==}
+  /karma/6.4.3:
+    resolution: {integrity: sha512-LuucC/RE92tJ8mlCwqEoRWXP38UMAqpnq98vktmS9SznSoUPPUJQbc91dHcxcunROvfQjdORVA/YFviH+Xci9Q==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
@@ -5307,7 +5300,7 @@ packages:
       qjobs: 1.2.0
       range-parser: 1.2.1
       rimraf: 3.0.2
-      socket.io: 4.4.1
+      socket.io: 4.7.4
       source-map: 0.6.1
       tmp: 0.2.1
       ua-parser-js: 0.7.30
@@ -7472,8 +7465,15 @@ packages:
     resolution: {integrity: sha512-WzZRUj1kUjrTIrUKpZLEzFZ1OLj5FwLlAFQs9kuZJzJi5DKdU7FsWc36SNmA8iDOtwBQyT8FkrriRM8vXLYz8g==}
     dev: true
 
-  /socket.io-adapter/2.3.3:
-    resolution: {integrity: sha512-Qd/iwn3VskrpNO60BeRyCyr8ZWw9CPZyitW4AQwmRZ8zCiyDiL+znRnWX6tDHXnWn1sJrM1+b6Mn6wEDJJ4aYQ==}
+  /socket.io-adapter/2.5.4:
+    resolution: {integrity: sha512-wDNHGXGewWAjQPt3pyeYBtpWSq9cLE5UW1ZUPL/2eGK9jtse/FpXib7epSTsz0Q0m+6sg6Y4KtcFTlah1bdOVg==}
+    dependencies:
+      debug: 4.3.4
+      ws: 8.11.0
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
     dev: true
 
   /socket.io-client/2.4.0:
@@ -7516,12 +7516,11 @@ packages:
       - supports-color
     dev: true
 
-  /socket.io-parser/4.0.4:
-    resolution: {integrity: sha512-t+b0SS+IxG7Rxzda2EVvyBZbvFPBCjJoyHuE0P//7OAsN23GItzDRdWa6ALxZI/8R5ygK7jAR6t028/z+7295g==}
+  /socket.io-parser/4.2.4:
+    resolution: {integrity: sha512-/GbIKmo8ioc+NIWIhwdecY0ge+qVBSMdgxGygevmdHj24bsfgtCmcUUcQ5ZzcylGFHsN3k4HB4Cgkl96KVnuew==}
     engines: {node: '>=10.0.0'}
     dependencies:
-      '@types/component-emitter': 1.2.10
-      component-emitter: 1.3.0
+      '@socket.io/component-emitter': 3.1.0
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
@@ -7542,16 +7541,17 @@ packages:
       - utf-8-validate
     dev: true
 
-  /socket.io/4.4.1:
-    resolution: {integrity: sha512-s04vrBswdQBUmuWJuuNTmXUVJhP0cVky8bBDhdkf8y0Ptsu7fKU2LuLbts9g+pdmAdyMMn8F/9Mf1/wbtUN0fg==}
-    engines: {node: '>=10.0.0'}
+  /socket.io/4.7.4:
+    resolution: {integrity: sha512-DcotgfP1Zg9iP/dH9zvAQcWrE0TtbMVwXmlV4T4mqsvY+gw+LqUGPfx2AoVyRk0FLME+GQhufDMyacFmw7ksqw==}
+    engines: {node: '>=10.2.0'}
     dependencies:
       accepts: 1.3.7
       base64id: 2.0.0
+      cors: 2.8.5
       debug: 4.3.4
-      engine.io: 6.1.3
-      socket.io-adapter: 2.3.3
-      socket.io-parser: 4.0.4
+      engine.io: 6.5.4
+      socket.io-adapter: 2.5.4
+      socket.io-parser: 4.2.4
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -8602,8 +8602,8 @@ packages:
         optional: true
     dev: true
 
-  /ws/8.2.3:
-    resolution: {integrity: sha512-wBuoj1BDpC6ZQ1B7DWQBYVLphPWkm8i9Y0/3YdHjHKHiohOJ1ws+3OccDWtH+PoC9DZD5WOTrJvNbWvjS6JWaA==}
+  /ws/8.11.0:
+    resolution: {integrity: sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
