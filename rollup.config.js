@@ -101,7 +101,7 @@ function createProdConfig(format) {
     input: `src/jsx-dev-runtime.production.js`,
     output: {
       format,
-      file: `${dir}/react/jsx-dev-runtime@${DevReact.version}.production.js`,
+      file: `${format}/react/jsx-dev-runtime@${DevReact.version}.production.js`,
       sourcemap: true,
       banner: `/* react/jsx-dev-runtime@${DevReact.version} production version */`,
       exports: "named",
@@ -120,7 +120,7 @@ function createProdConfig(format) {
     input: `src/jsx-runtime.production.js`,
     output: {
       format,
-      file: `${dir}/react/jsx-runtime@${DevReact.version}.production.js`,
+      file: `${format}/react/jsx-runtime@${DevReact.version}.production.js`,
       sourcemap: true,
       banner: `/* react/jsx-runtime@${DevReact.version} production version */`,
       exports: "named",
@@ -140,6 +140,6 @@ function createProdConfig(format) {
 export default [
   ...createDevConfig("esm"),
   ...createDevConfig("system"),
-  createProdConfig("esm"),
-  createProdConfig("system"),
+  ...createProdConfig("esm"),
+  ...createProdConfig("system"),
 ];
