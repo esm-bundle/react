@@ -1,5 +1,5 @@
 import ReactJSXDev from "react/cjs/react-jsx-dev-runtime.development.js";
-import ReactJSX from 'react/jsx-runtime';
+import ReactJSX from "react/cjs/react-jsx-runtime.development.js";
 
 export default ReactJSXDev;
 
