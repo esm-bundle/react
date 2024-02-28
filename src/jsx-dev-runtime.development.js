@@ -3,8 +3,8 @@ import ReactJSX from 'react/jsx-runtime';
 
 export default ReactJSXDev;
 
-ReactJSXDev.jsx = ReactJSXDev.jsxDEV;
-ReactJSXDev.jsxs = ReactJSX.jsxs;
+if(!ReactJSXDev.jsx) ReactJSXDev.jsx = ReactJSX.jsx;
+if(!ReactJSXDev.jsxs) ReactJSXDev.jsxs = ReactJSX.jsxs;
 
 export const __esmModule = true;
 
