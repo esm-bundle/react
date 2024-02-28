@@ -88,13 +88,6 @@ function createProdConfig(format) {
           "process.env.NODE_ENV": '"production"',
         },
       }),
-      terser({
-        output: {
-          comments(node, comment) {
-            return comment.value.trim().startsWith("react@");
-          },
-        },
-      }),
     ],
   },
   {
