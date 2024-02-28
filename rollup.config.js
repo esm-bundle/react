@@ -9,25 +9,65 @@ const ProdReact = require("react/cjs/react.production.min.js");
 function createDevConfig(format) {
   const dir = format === "module" ? "esm" : format;
 
-  return {
-    input: `src/development.js`,
-    output: {
-      format,
-      file: `${dir}/react.development.js`,
-      sourcemap: true,
-      banner: `/* react@${DevReact.version} development version */`,
-      exports: "named",
+  return [
+    {
+      input: `src/development.js`,
+      output: {
+        format,
+        file: `${dir}/react@${DevReact.version}.development.js`,
+        sourcemap: true,
+        banner: `/* react@${DevReact.version} development version */`,
+        exports: "named",
+      },
+      plugins: [
+        commonjs(),
+        resolve(),
+        replace({
+          values: {
+            "process.env.NODE_ENV": '"development"',
+          },
+        }),
+      ],
     },
-    plugins: [
-      commonjs(),
-      resolve(),
-      replace({
-        values: {
-          "process.env.NODE_ENV": '"development"',
-        },
-      }),
-    ],
-  };
+    {
+      input: `src/jsx-dev-runtime.development.js`,
+      output: {
+        format,
+        file: `${dir}/react/jsx-dev-runtime@${DevReact.version}.development.js`,
+        sourcemap: true,
+        banner: `/* react/jsx-dev-runtime@${DevReact.version} development version */`,
+        exports: "named",
+      },
+      plugins: [
+        commonjs(),
+        resolve(),
+        replace({
+          values: {
+            "process.env.NODE_ENV": '"development"',
+          },
+        }),
+      ],
+    },
+    {
+      input: `src/jsx-runtime.development.js`,
+      output: {
+        format,
+        file: `${dir}/react/jsx-runtime@${DevReact.version}.development.js`,
+        sourcemap: true,
+        banner: `/* react/jsx-runtime@${DevReact.version} development version */`,
+        exports: "named",
+      },
+      plugins: [
+        commonjs(),
+        resolve(),
+        replace({
+          values: {
+            "process.env.NODE_ENV": '"development"',
+          },
+        }),
+      ],
+    },
+  ];
 }
 
 function createProdConfig(format) {
@@ -35,7 +75,7 @@ function createProdConfig(format) {
     input: `src/production.js`,
     output: {
       format,
-      file: `${format}/react.production.min.js`,
+      file: `${format}/react@${ProdReact.version}.production.min.js`,
       sourcemap: true,
       banner: `/* react@${ProdReact.version} production version */`,
       exports: "named",
@@ -60,8 +100,8 @@ function createProdConfig(format) {
 }
 
 export default [
-  createDevConfig("esm"),
-  createDevConfig("system"),
+  ...createDevConfig("esm"),
+  ...createDevConfig("system"),
   createProdConfig("esm"),
   createProdConfig("system"),
 ];
