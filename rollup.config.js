@@ -71,7 +71,7 @@ function createDevConfig(format) {
 }
 
 function createProdConfig(format) {
-  return {
+  return [{
     input: `src/production.js`,
     output: {
       format,
@@ -96,7 +96,45 @@ function createProdConfig(format) {
         },
       }),
     ],
-  };
+  },
+  {
+    input: `src/jsx-dev-runtime.production.js`,
+    output: {
+      format,
+      file: `${dir}/react/jsx-dev-runtime@${DevReact.version}.production.js`,
+      sourcemap: true,
+      banner: `/* react/jsx-dev-runtime@${DevReact.version} production version */`,
+      exports: "named",
+    },
+    plugins: [
+      commonjs(),
+      resolve(),
+      replace({
+        values: {
+          "process.env.NODE_ENV": '"production"',
+        },
+      }),
+    ],
+  },
+  {
+    input: `src/jsx-runtime.production.js`,
+    output: {
+      format,
+      file: `${dir}/react/jsx-runtime@${DevReact.version}.production.js`,
+      sourcemap: true,
+      banner: `/* react/jsx-runtime@${DevReact.version} production version */`,
+      exports: "named",
+    },
+    plugins: [
+      commonjs(),
+      resolve(),
+      replace({
+        values: {
+          "process.env.NODE_ENV": '"production"',
+        },
+      }),
+    ],
+  },];
 }
 
 export default [
