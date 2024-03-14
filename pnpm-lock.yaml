@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 25.0.7
   '@rollup/plugin-node-resolve': 15.2.3
   '@rollup/plugin-replace': 5.0.5
-  '@rollup/plugin-terser': 0.1.0
+  '@rollup/plugin-terser': 0.4.4
   concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
   husky: 9.0.11
@@ -24,7 +24,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 25.0.7_rollup@2.79.1
   '@rollup/plugin-node-resolve': 15.2.3_rollup@2.79.1
   '@rollup/plugin-replace': 5.0.5_rollup@2.79.1
-  '@rollup/plugin-terser': 0.1.0_rollup@2.79.1
+  '@rollup/plugin-terser': 0.4.4_rollup@2.79.1
   concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
   husky: 9.0.11
@@ -938,16 +938,18 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-terser/0.1.0_rollup@2.79.1:
-    resolution: {integrity: sha512-N2KK+qUfHX2hBzVzM41UWGLrEmcjVC37spC8R3c9mt3oEDFKh3N2e12/lLp9aVSt86veR0TQiCNQXrm8C6aiUQ==}
+  /@rollup/plugin-terser/0.4.4_rollup@2.79.1:
+    resolution: {integrity: sha512-XHeJC5Bgvs8LfukDwWZp7yeqin6ns8RTl2B9avbejt6tZqsqvVoWI7ZTQrcNsfKEDWBTnTxM8nMDkO2IFFbd0A==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      rollup: ^2.x || ^3.x
+      rollup: ^2.0.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
       rollup:
         optional: true
     dependencies:
       rollup: 2.79.1
+      serialize-javascript: 6.0.2
+      smob: 1.4.1
       terser: 5.29.2
     dev: true
 
@@ -1208,12 +1210,6 @@ packages:
 
   /acorn/8.11.3:
     resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
-    dev: true
-
-  /acorn/8.7.1:
-    resolution: {integrity: sha512-Xx54uLJQZ19lKygFXOWsscKUbsBZW0CPykPhVQdhIeIwrbPmJzqeASDInc8nKBnp/JT6igTs82qPXz069H8I/A==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
@@ -4988,7 +4984,7 @@ packages:
       jest-runtime: 25.5.4
       jest-util: 25.5.0
       jest-worker: 25.5.0
-      source-map-support: 0.5.19
+      source-map-support: 0.5.21
       throat: 5.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -7332,6 +7328,12 @@ packages:
       randombytes: 2.1.0
     dev: true
 
+  /serialize-javascript/6.0.2:
+    resolution: {integrity: sha512-Saa1xPByTTq2gdeFZYLLo+RFE35NHZkAbqZeWNd3BpzppeVisAqpDjcp8dyf6uIvEqJRd46jemmyA4iFIeVk8g==}
+    dependencies:
+      randombytes: 2.1.0
+    dev: true
+
   /set-blocking/2.0.0:
     resolution: {integrity: sha1-BF+XgtARrppoA93TgrJDkrPYkPc=}
     dev: true
@@ -7458,6 +7460,10 @@ packages:
   /smart-buffer/4.2.0:
     resolution: {integrity: sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==}
     engines: {node: '>= 6.0.0', npm: '>= 3.0.0'}
+    dev: true
+
+  /smob/1.4.1:
+    resolution: {integrity: sha512-9LK+E7Hv5R9u4g4C3p+jjLstaLe11MDsL21UpYaCNmapvMkYhqCV4A/f/3gyH8QjMyh6l68q9xC85vihY9ahMQ==}
     dev: true
 
   /snapdragon-node/2.1.1:
@@ -7616,13 +7622,6 @@ packages:
       resolve-url: 0.2.1
       source-map-url: 0.4.1
       urix: 0.1.0
-    dev: true
-
-  /source-map-support/0.5.19:
-    resolution: {integrity: sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==}
-    dependencies:
-      buffer-from: 1.1.1
-      source-map: 0.6.1
     dev: true
 
   /source-map-support/0.5.21:
@@ -7975,10 +7974,10 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      acorn: 8.7.1
+      acorn: 8.11.3
       commander: 2.20.3
       source-map: 0.6.1
-      source-map-support: 0.5.19
+      source-map-support: 0.5.21
     dev: true
 
   /terser/5.29.2:
