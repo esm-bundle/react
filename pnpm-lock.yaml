@@ -11,7 +11,7 @@ specifiers:
   karma: 6.4.3
   karma-firefox-launcher: 2.1.3
   karma-jasmine: 5.1.0
-  mocha: 10.6.1
+  mocha: 10.7.0
   pinst: 3.0.0
   prettier: 3.3.3
   pretty-quick: 4.0.0
@@ -31,7 +31,7 @@ devDependencies:
   karma: 6.4.3
   karma-firefox-launcher: 2.1.3
   karma-jasmine: 5.1.0_karma@6.4.3
-  mocha: 10.6.1
+  mocha: 10.7.0
   pinst: 3.0.0
   prettier: 3.3.3
   pretty-quick: 4.0.0_prettier@3.3.3
@@ -3610,11 +3610,12 @@ packages:
   /glob/8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 5.0.1
+      minimatch: 5.1.6
       once: 1.4.0
     dev: true
 
@@ -4049,6 +4050,7 @@ packages:
 
   /inflight/1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
@@ -5640,13 +5642,6 @@ packages:
       brace-expansion: 1.1.11
     dev: true
 
-  /minimatch/5.0.1:
-    resolution: {integrity: sha512-nLDxIFRyhDblz3qMuq+SoRZED4+miJ/G+tdDrjkkkRnjAsBexeGpgjLEQ0blJy7rHhR2b93rhQY4SvyWu9v03g==}
-    engines: {node: '>=10'}
-    dependencies:
-      brace-expansion: 2.0.1
-    dev: true
-
   /minimatch/5.1.6:
     resolution: {integrity: sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==}
     engines: {node: '>=10'}
@@ -5673,8 +5668,8 @@ packages:
       minimist: 1.2.5
     dev: true
 
-  /mocha/10.6.1:
-    resolution: {integrity: sha512-3DI5OWZGF2kRsNS2JV1GBU9YOwljNy0aBj8cJM3ndartWTd6iRwKleO00XB5/mAzzkUZ5h40Z0DcbswsQZ/Gvw==}
+  /mocha/10.7.0:
+    resolution: {integrity: sha512-v8/rBWr2VO5YkspYINnvu81inSz2y3ODJrhO175/Exzor1RcEZZkizgE2A+w/CAXXoESS8Kys5E62dOHGHzULA==}
     engines: {node: '>= 14.0.0'}
     hasBin: true
     dependencies:
