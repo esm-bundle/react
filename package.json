@@ -34,7 +34,7 @@
   "homepage": "https://github.com/esm-bundle/react#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "25.0.8",
-    "@rollup/plugin-node-resolve": "15.2.4",
+    "@rollup/plugin-node-resolve": "15.3.0",
     "@rollup/plugin-replace": "5.0.7",
     "concurrently": "9.0.1",
     "esm-bundle-scripts": "1.2.0",
