@@ -15,7 +15,7 @@ specifiers:
   pinst: 3.0.0
   prettier: 3.3.3
   pretty-quick: 4.0.0
-  react: 17.0.2
+  react: 18.3.1
   release-it: 17.10.0
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.2
@@ -35,7 +35,7 @@ devDependencies:
   pinst: 3.0.0
   prettier: 3.3.3
   pretty-quick: 4.0.0_prettier@3.3.3
-  react: 17.0.2
+  react: 18.3.1
   release-it: 17.10.0
   release-it-plugin-esm-bundle: 3.0.0_release-it@17.10.0
   rollup: 2.79.2
@@ -6541,12 +6541,11 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react/17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+  /react/18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
     dev: true
 
   /read-pkg-up/7.0.1:
