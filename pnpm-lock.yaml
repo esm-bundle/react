@@ -14,7 +14,7 @@ specifiers:
   mocha: 10.8.2
   pinst: 3.0.0
   prettier: 3.5.3
-  pretty-quick: 4.1.1
+  pretty-quick: 4.2.0
   react: 17.0.2
   release-it: 19.0.3
   release-it-plugin-esm-bundle: 3.0.0
@@ -34,7 +34,7 @@ devDependencies:
   mocha: 10.8.2
   pinst: 3.0.0
   prettier: 3.5.3
-  pretty-quick: 4.1.1_prettier@3.5.3
+  pretty-quick: 4.2.0_prettier@3.5.3
   react: 17.0.2
   release-it: 19.0.3
   release-it-plugin-esm-bundle: 3.0.0_release-it@19.0.3
@@ -1049,6 +1049,11 @@ packages:
   /@phun-ky/typeof/1.2.8:
     resolution: {integrity: sha512-7J6ca1tK0duM2BgVB+CuFMh3idlIVASOP2QvOCbNWDc6JnvjtKa9nufPoJQQ4xrwBonwgT1TIhRRcEtzdVgWsA==}
     engines: {node: ^20.9.0 || >=22.0.0, npm: '>=10.8.2'}
+    dev: true
+
+  /@pkgr/core/0.2.7:
+    resolution: {integrity: sha512-YLT9Zo3oNPJoBjBc4q8G2mjU4tqIbf5CEOORbUUr48dCD9q3umJ3IPlVqOqDakPfd2HuwccBaqlGhN4Gmr5OWg==}
+    engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
   /@rollup/plugin-commonjs/11.1.0_rollup@2.79.2:
@@ -4040,8 +4045,8 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
-  /ignore/7.0.3:
-    resolution: {integrity: sha512-bAH5jbK/F3T3Jls4I0SO1hmPR0dKU0a7+SY6n1yzRtG54FLO8d6w/nxLFX2Nb7dBu6cCWXPaAME6cYqFUMmuCA==}
+  /ignore/7.0.5:
+    resolution: {integrity: sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==}
     engines: {node: '>= 4'}
     dev: true
 
@@ -6501,20 +6506,20 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /pretty-quick/4.1.1_prettier@3.5.3:
-    resolution: {integrity: sha512-9Ud0l/CspNTmyIdYac9X7Inb3o8fuUsw+1zJFvCGn+at0t1UwUcUdo2RSZ41gcmfLv1fxgWQxWEfItR7CBwugg==}
+  /pretty-quick/4.2.0_prettier@3.5.3:
+    resolution: {integrity: sha512-YHNtLadWFvdvqKhSqhgb9W1XC2pNAKHhXiy6NW1FVY7ogivjdWiZgTjIRLkQtRCBaDnT2eyTTOMkcYB6mkx1Ug==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
-      find-up: 5.0.0
-      ignore: 7.0.3
+      '@pkgr/core': 0.2.7
+      ignore: 7.0.5
       mri: 1.2.0
       picocolors: 1.1.1
       picomatch: 4.0.2
       prettier: 3.5.3
-      tinyexec: 0.3.2
+      tinyexec: 1.0.1
       tslib: 2.8.1
     dev: true
 
@@ -7864,6 +7869,10 @@ packages:
 
   /tinyexec/0.3.2:
     resolution: {integrity: sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==}
+    dev: true
+
+  /tinyexec/1.0.1:
+    resolution: {integrity: sha512-5uC6DDlmeqiOwCPmK9jMSdOuZTh8bU39Ys6yidB+UTt5hfZUPGAypSgFRiEp+jbi9qH40BLDvy85jIU88wKSqw==}
     dev: true
 
   /tinyglobby/0.2.14:
