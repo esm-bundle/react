@@ -12,7 +12,7 @@ jobs:
       MOZ_HEADLESS: 1
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         with:
           node-version: "15"
       - uses: pnpm/action-setup@v4.2.0
@@ -38,7 +38,7 @@ jobs:
           # Use our own token instead of the default token
           # this step persists login credentials so strongly that we couldn't get them to override
           token: ${{ secrets.PUBLISH_BOT }}
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         with:
           node-version: "15"
       - uses: pnpm/action-setup@v4.2.0
