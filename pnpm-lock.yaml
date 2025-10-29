@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@rollup/plugin-commonjs': 28.0.9
   '@rollup/plugin-node-resolve': 16.0.3
-  '@rollup/plugin-replace': 6.0.2
+  '@rollup/plugin-replace': 6.0.3
   '@rollup/plugin-terser': 0.4.4
   concurrently: 9.2.1
   esm-bundle-scripts: 1.2.0
@@ -23,7 +23,7 @@ specifiers:
 devDependencies:
   '@rollup/plugin-commonjs': 28.0.9_rollup@2.79.2
   '@rollup/plugin-node-resolve': 16.0.3_rollup@2.79.2
-  '@rollup/plugin-replace': 6.0.2_rollup@2.79.2
+  '@rollup/plugin-replace': 6.0.3_rollup@2.79.2
   '@rollup/plugin-terser': 0.4.4_rollup@2.79.2
   concurrently: 9.2.1
   esm-bundle-scripts: 1.2.0
@@ -1150,8 +1150,8 @@ packages:
       rollup: 2.79.2
     dev: true
 
-  /@rollup/plugin-replace/6.0.2_rollup@2.79.2:
-    resolution: {integrity: sha512-7QaYCf8bqF04dOy7w/eHmJeNExxTYwvKAmlSAH/EaWWUzbT0h5sbF6bktFoX/0F/0qwng5/dWFMyf3gzaM8DsQ==}
+  /@rollup/plugin-replace/6.0.3_rollup@2.79.2:
+    resolution: {integrity: sha512-J4RZarRvQAm5IF0/LwUUg+obsm+xZhYnbMXmXROyoSE1ATJe3oXSb9L5MMppdxP2ylNSjv6zFBwKYjcKMucVfA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
