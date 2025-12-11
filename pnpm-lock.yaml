@@ -16,7 +16,7 @@ specifiers:
   prettier: 3.7.4
   pretty-quick: 4.2.2
   react: 17.0.2
-  release-it: 19.0.6
+  release-it: 19.1.0
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.2
 
@@ -36,8 +36,8 @@ devDependencies:
   prettier: 3.7.4
   pretty-quick: 4.2.2_prettier@3.7.4
   react: 17.0.2
-  release-it: 19.0.6
-  release-it-plugin-esm-bundle: 3.0.0_release-it@19.0.6
+  release-it: 19.1.0
+  release-it-plugin-esm-bundle: 3.0.0_release-it@19.1.0
   rollup: 2.79.2
 
 packages:
@@ -6783,12 +6783,12 @@ packages:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
     dev: true
 
-  /release-it-plugin-esm-bundle/3.0.0_release-it@19.0.6:
+  /release-it-plugin-esm-bundle/3.0.0_release-it@19.1.0:
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 19.0.6
+      release-it: 19.1.0
     dev: true
 
   /release-it/13.7.1:
@@ -6831,8 +6831,8 @@ packages:
       - encoding
     dev: true
 
-  /release-it/19.0.6:
-    resolution: {integrity: sha512-XTCNZ2mV9wjASQmc2bcQjA+ImJiFMijbFSyQE6lDmP1Plq17acjYaoY5FmJb5Lh/Nv4UDwfRlKQMv1DvHFKf1g==}
+  /release-it/19.1.0:
+    resolution: {integrity: sha512-XgAIZVKgHgOBUUoLFrUfXHG4cUDiXPWFW0AHIAgk17Tk9JbIjz9YyAU8MyQer7dWkfG5IpNU9QH8tViQZGfhaw==}
     engines: {node: ^20.12.0 || >=22.0.0}
     hasBin: true
     dependencies:
