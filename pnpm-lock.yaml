@@ -16,7 +16,7 @@ specifiers:
   prettier: 3.8.0
   pretty-quick: 4.2.2
   react: 17.0.2
-  release-it: 19.2.3
+  release-it: 19.2.4
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.2
 
@@ -36,8 +36,8 @@ devDependencies:
   prettier: 3.8.0
   pretty-quick: 4.2.2_prettier@3.8.0
   react: 17.0.2
-  release-it: 19.2.3
-  release-it-plugin-esm-bundle: 3.0.0_release-it@19.2.3
+  release-it: 19.2.4
+  release-it-plugin-esm-bundle: 3.0.0_release-it@19.2.4
   rollup: 2.79.2
 
 packages:
@@ -6773,12 +6773,12 @@ packages:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
     dev: true
 
-  /release-it-plugin-esm-bundle/3.0.0_release-it@19.2.3:
+  /release-it-plugin-esm-bundle/3.0.0_release-it@19.2.4:
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 19.2.3
+      release-it: 19.2.4
     dev: true
 
   /release-it/13.7.1:
@@ -6821,8 +6821,8 @@ packages:
       - encoding
     dev: true
 
-  /release-it/19.2.3:
-    resolution: {integrity: sha512-GTSfrKb0cPmssEFliX0+WQBHC6NiDsMR/M8Y2tkvct/TO36BjB5XV6LO5BUTYV12C3+f78Y8aroku7jCyNiDeA==}
+  /release-it/19.2.4:
+    resolution: {integrity: sha512-BwaJwQYUIIAKuDYvpqQTSoy0U7zIy6cHyEjih/aNaFICphGahia4cjDANuFXb7gVZ51hIK9W0io6fjNQWXqICg==}
     engines: {node: ^20.12.0 || >=22.0.0}
     hasBin: true
     dependencies:
@@ -6845,7 +6845,7 @@ packages:
       proxy-agent: 6.5.0
       semver: 7.7.3
       tinyglobby: 0.2.15
-      undici: 6.22.0
+      undici: 6.23.0
       url-join: 5.0.0
       wildcard-match: 5.1.4
       yargs-parser: 21.1.1
@@ -8096,8 +8096,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici/6.22.0:
-    resolution: {integrity: sha512-hU/10obOIu62MGYjdskASR3CUAiYaFTtC9Pa6vHyf//mAipSvSQg6od2CnJswq7fvzNS3zJhxoRkgNVaHurWKw==}
+  /undici/6.23.0:
+    resolution: {integrity: sha512-VfQPToRA5FZs/qJxLIinmU59u0r7LXqoJkCzinq3ckNJp3vKEh7jTWN589YQ5+aoAC/TGRLyJLCPKcLQbM8r9g==}
     engines: {node: '>=18.17'}
     dev: true
 
