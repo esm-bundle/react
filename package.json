@@ -50,6 +50,6 @@
     "release-it": "19.2.4",
     "release-it-plugin-esm-bundle": "3.0.0",
     "rollup": "2.80.0",
-    "@rollup/plugin-terser": "0.4.4"
+    "@rollup/plugin-terser": "1.0.0"
   }
 }

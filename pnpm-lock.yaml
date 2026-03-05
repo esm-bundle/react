@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 29.0.0
   '@rollup/plugin-node-resolve': 16.0.3
   '@rollup/plugin-replace': 6.0.3
-  '@rollup/plugin-terser': 0.4.4
+  '@rollup/plugin-terser': 1.0.0
   concurrently: 9.2.1
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
@@ -24,7 +24,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 29.0.0_rollup@2.80.0
   '@rollup/plugin-node-resolve': 16.0.3_rollup@2.80.0
   '@rollup/plugin-replace': 6.0.3_rollup@2.80.0
-  '@rollup/plugin-terser': 0.4.4_rollup@2.80.0
+  '@rollup/plugin-terser': 1.0.0_rollup@2.80.0
   concurrently: 9.2.1
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
@@ -1144,9 +1144,9 @@ packages:
       rollup: 2.80.0
     dev: true
 
-  /@rollup/plugin-terser/0.4.4_rollup@2.80.0:
-    resolution: {integrity: sha512-XHeJC5Bgvs8LfukDwWZp7yeqin6ns8RTl2B9avbejt6tZqsqvVoWI7ZTQrcNsfKEDWBTnTxM8nMDkO2IFFbd0A==}
-    engines: {node: '>=14.0.0'}
+  /@rollup/plugin-terser/1.0.0_rollup@2.80.0:
+    resolution: {integrity: sha512-FnCxhTBx6bMOYQrar6C8h3scPt8/JwIzw3+AJ2K++6guogH5fYaIFia+zZuhqv0eo1RN7W1Pz630SyvLbDjhtQ==}
+    engines: {node: '>=20.0.0'}
     peerDependencies:
       rollup: ^2.0.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
@@ -1154,7 +1154,7 @@ packages:
         optional: true
     dependencies:
       rollup: 2.80.0
-      serialize-javascript: 6.0.2
+      serialize-javascript: 7.0.4
       smob: 1.4.1
       terser: 5.29.2
     dev: true
@@ -7218,6 +7218,11 @@ packages:
     resolution: {integrity: sha512-Saa1xPByTTq2gdeFZYLLo+RFE35NHZkAbqZeWNd3BpzppeVisAqpDjcp8dyf6uIvEqJRd46jemmyA4iFIeVk8g==}
     dependencies:
       randombytes: 2.1.0
+    dev: true
+
+  /serialize-javascript/7.0.4:
+    resolution: {integrity: sha512-DuGdB+Po43Q5Jxwpzt1lhyFSYKryqoNjQSA9M92tyw0lyHIOur+XCalOUe0KTJpyqzT8+fQ5A0Jf7vCx/NKmIg==}
+    engines: {node: '>=20.0.0'}
     dev: true
 
   /set-blocking/2.0.0:
