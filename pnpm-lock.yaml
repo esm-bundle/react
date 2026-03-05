@@ -15,7 +15,7 @@ specifiers:
   pinst: 3.0.0
   prettier: 3.8.1
   pretty-quick: 4.2.2
-  react: 17.0.2
+  react: 19.2.4
   release-it: 19.2.4
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.80.0
@@ -35,7 +35,7 @@ devDependencies:
   pinst: 3.0.0
   prettier: 3.8.1
   pretty-quick: 4.2.2_prettier@3.8.1
-  react: 17.0.2
+  react: 19.2.4
   release-it: 19.2.4
   release-it-plugin-esm-bundle: 3.0.0_release-it@19.2.4
   rollup: 2.80.0
@@ -5472,13 +5472,6 @@ packages:
       '@sinonjs/commons': 1.8.2
     dev: true
 
-  /loose-envify/1.4.0:
-    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
-    hasBin: true
-    dependencies:
-      js-tokens: 4.0.0
-    dev: true
-
   /lowercase-keys/1.0.1:
     resolution: {integrity: sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==}
     engines: {node: '>=0.10.0'}
@@ -6667,12 +6660,9 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react/17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+  /react/19.2.4:
+    resolution: {integrity: sha512-9nfp2hYpCwOjAN+8TZFGhtWEwgvWHXqESH8qT89AT/lWklpLON22Lc8pEtnpsZz7VmawabSU0gCjnj8aC0euHQ==}
     engines: {node: '>=0.10.0'}
-    dependencies:
-      loose-envify: 1.4.0
-      object-assign: 4.1.1
     dev: true
 
   /read-pkg-up/7.0.1:
