@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: "15"
-      - uses: pnpm/action-setup@v5.0.0
+      - uses: pnpm/action-setup@v6.0.5
         with:
           version: 5.18.10
       - run: pnpm install --frozen-lockfile
@@ -41,7 +41,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: "15"
-      - uses: pnpm/action-setup@v5.0.0
+      - uses: pnpm/action-setup@v6.0.5
         with:
           version: 5.18.10
       - run: pnpm install --frozen-lockfile
