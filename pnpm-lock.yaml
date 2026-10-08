@@ -5,7 +5,7 @@ specifiers:
   '@rollup/plugin-node-resolve': 16.0.3
   '@rollup/plugin-replace': 6.0.3
   '@rollup/plugin-terser': 1.0.0
-  concurrently: 9.2.4
+  concurrently: 9.2.5
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
   karma: 6.4.4
@@ -25,7 +25,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 16.0.3_rollup@2.80.0
   '@rollup/plugin-replace': 6.0.3_rollup@2.80.0
   '@rollup/plugin-terser': 1.0.0_rollup@2.80.0
-  concurrently: 9.2.4
+  concurrently: 9.2.5
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
   karma: 6.4.4
@@ -2292,14 +2292,14 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/9.2.4:
-    resolution: {integrity: sha512-TZ0CEhyzvFjgtAvHTusDMgj7wNdihCh7LLLrzdUOXIhdlnL2JBBGA9eJxR24rtqgmdjh3OA3hrN1rCHj6HM8qA==}
+  /concurrently/9.2.5:
+    resolution: {integrity: sha512-YMZlvWrTPQEhjKp60XSmMGt60+pffbv6DyRnOMvVO98+J7aF8w8Ui9FhdcOwvSixc/kyR6SoVvmejcn/2lZBqg==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
       chalk: 4.1.2
       rxjs: 7.8.2
-      shell-quote: 1.9.0
+      shell-quote: 1.12.0
       supports-color: 8.1.1
       tree-kill: 1.2.2
       yargs: 17.7.2
@@ -7215,8 +7215,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shell-quote/1.9.0:
-    resolution: {integrity: sha512-Iov+JwFv/2HcTpcwNMKd8+IWNb8tboQJNQTkAY/LLVK7gGH9jy+LGkVqPxfekHl+yMmiqXszdGWXgkfml7hjqA==}
+  /shell-quote/1.12.0:
+    resolution: {integrity: sha512-PcByqNyT/38F2kDNi006HAMRJaULuBzq/FOsw3qdZvX/GA9W/jamDaRskgHjubHiftXK5sIFxLNkvrXUwcof6Q==}
     engines: {node: '>= 0.4'}
     dev: true
 
