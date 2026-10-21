@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 29.0.3
   '@rollup/plugin-node-resolve': 16.0.3
   '@rollup/plugin-replace': 6.0.3
-  '@rollup/plugin-terser': 1.0.1
+  '@rollup/plugin-terser': 1.0.2
   concurrently: 9.2.5
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
@@ -24,7 +24,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 29.0.3_rollup@2.80.0
   '@rollup/plugin-node-resolve': 16.0.3_rollup@2.80.0
   '@rollup/plugin-replace': 6.0.3_rollup@2.80.0
-  '@rollup/plugin-terser': 1.0.1_rollup@2.80.0
+  '@rollup/plugin-terser': 1.0.2_rollup@2.80.0
   concurrently: 9.2.5
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
@@ -1132,8 +1132,8 @@ packages:
       rollup: 2.80.0
     dev: true
 
-  /@rollup/plugin-terser/1.0.1_rollup@2.80.0:
-    resolution: {integrity: sha512-8/UVzuKqkcP1YydBTd8sToJtc5ukOgahl7iIT/xYUPP3hK3dC29BnMfUVQB+wWCl2EpQHVFhkrge6DLN9jjOMg==}
+  /@rollup/plugin-terser/1.0.2_rollup@2.80.0:
+    resolution: {integrity: sha512-+UihHnuLnQDQ/9wog7ym+7oawCXkjTIo0WwkK7s//0mkktTN0VhYk6fGVxH+NtGzW064w5RCGgreMDxRVhHCzw==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       rollup: ^2.0.0||^3.0.0||^4.0.0
@@ -1144,7 +1144,7 @@ packages:
       rollup: 2.80.0
       serialize-javascript: 7.0.4
       smob: 1.4.1
-      terser: 5.29.2
+      terser: 5.51.2
     dev: true
 
   /@rollup/pluginutils/3.1.0_rollup@2.80.0:
@@ -1387,6 +1387,12 @@ packages:
 
   /acorn/8.11.3:
     resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+    dev: true
+
+  /acorn/8.19.0:
+    resolution: {integrity: sha512-oJlA3XiRm7Cyk6qFD2Jn8ak9B7jSy0qy00ADO3+8dpT0LSjFihQYv4C02LFCSYJV3Q37xYwwRy5m+IpIiUzqWw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
@@ -7763,13 +7769,13 @@ packages:
       source-map-support: 0.5.21
     dev: true
 
-  /terser/5.29.2:
-    resolution: {integrity: sha512-ZiGkhUBIM+7LwkNjXYJq8svgkd+QK3UUr0wJqY4MieaezBSAIPgbSPZyIx0idM6XWK5CMzSWa8MJIzmRcB8Caw==}
+  /terser/5.51.2:
+    resolution: {integrity: sha512-bWnjSNscmuI+GJze6ZupnHP8G/cTcsJF+bXCeQknk2SHQsgbNJnLrqiH9jZ2W4STPVXH2mDKKRX3iwPhc9Cn/Q==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.6
-      acorn: 8.11.3
+      acorn: 8.19.0
       commander: 2.20.3
       source-map-support: 0.5.21
     dev: true
