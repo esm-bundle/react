@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 29.0.3
   '@rollup/plugin-node-resolve': 16.0.3
   '@rollup/plugin-replace': 6.0.3
-  '@rollup/plugin-terser': 1.0.0
+  '@rollup/plugin-terser': 1.0.1
   concurrently: 9.2.5
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
@@ -24,7 +24,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 29.0.3_rollup@2.80.0
   '@rollup/plugin-node-resolve': 16.0.3_rollup@2.80.0
   '@rollup/plugin-replace': 6.0.3_rollup@2.80.0
-  '@rollup/plugin-terser': 1.0.0_rollup@2.80.0
+  '@rollup/plugin-terser': 1.0.1_rollup@2.80.0
   concurrently: 9.2.5
   esm-bundle-scripts: 1.2.0
   husky: 9.1.7
@@ -1132,8 +1132,8 @@ packages:
       rollup: 2.80.0
     dev: true
 
-  /@rollup/plugin-terser/1.0.0_rollup@2.80.0:
-    resolution: {integrity: sha512-FnCxhTBx6bMOYQrar6C8h3scPt8/JwIzw3+AJ2K++6guogH5fYaIFia+zZuhqv0eo1RN7W1Pz630SyvLbDjhtQ==}
+  /@rollup/plugin-terser/1.0.1_rollup@2.80.0:
+    resolution: {integrity: sha512-8/UVzuKqkcP1YydBTd8sToJtc5ukOgahl7iIT/xYUPP3hK3dC29BnMfUVQB+wWCl2EpQHVFhkrge6DLN9jjOMg==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       rollup: ^2.0.0||^3.0.0||^4.0.0
